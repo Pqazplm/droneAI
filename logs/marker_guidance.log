@@ -1,0 +1,1673 @@
+2026-09-10 09:34:44,931 WARNING marker-guidance Starting dry_run=True; target class=7; no automatic arming. Firmware must own takeover/failsafe.
+2026-09-10 09:34:44,934 INFO marker-guidance state=None -> LINK_FAULT reason=RC transmission stopped
+2026-09-10 09:34:44,935 ERROR marker-guidance Guidance/MSP failure; reconnect requires AUX1-low interlock
+Traceback (most recent call last):
+  File "/home/pi/.local/lib/python3.13/site-packages/serial/serialposix.py", line 322, in open
+    self.fd = os.open(self.portstr, os.O_RDWR | os.O_NOCTTY | os.O_NONBLOCK)
+              ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/dev/serial/by-id/usb-...-if00'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/pi/autopilot_bee_ept/claude2.py", line 704, in _run
+    link = _MSP(self.config)
+  File "/home/pi/autopilot_bee_ept/claude2.py", line 312, in __init__
+    self.serial = serial.Serial(
+                  ~~~~~~~~~~~~~^
+        config.port,
+        ^^^^^^^^^^^^
+    ...<2 lines>...
+        write_timeout=config.serial_timeout,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/home/pi/.local/lib/python3.13/site-packages/serial/serialutil.py", line 244, in __init__
+    self.open()
+    ~~~~~~~~~^^
+  File "/home/pi/.local/lib/python3.13/site-packages/serial/serialposix.py", line 325, in open
+    raise SerialException(msg.errno, "could not open port {}: {}".format(self._port, msg))
+serial.serialutil.SerialException: [Errno 2] could not open port /dev/serial/by-id/usb-...-if00: [Errno 2] No such file or directory: '/dev/serial/by-id/usb-...-if00'
+2026-09-10 09:34:45,969 ERROR marker-guidance Guidance/MSP failure; reconnect requires AUX1-low interlock
+Traceback (most recent call last):
+  File "/home/pi/.local/lib/python3.13/site-packages/serial/serialposix.py", line 322, in open
+    self.fd = os.open(self.portstr, os.O_RDWR | os.O_NOCTTY | os.O_NONBLOCK)
+              ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/dev/serial/by-id/usb-...-if00'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/pi/autopilot_bee_ept/claude2.py", line 704, in _run
+    link = _MSP(self.config)
+  File "/home/pi/autopilot_bee_ept/claude2.py", line 312, in __init__
+    self.serial = serial.Serial(
+                  ~~~~~~~~~~~~~^
+        config.port,
+        ^^^^^^^^^^^^
+    ...<2 lines>...
+        write_timeout=config.serial_timeout,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/home/pi/.local/lib/python3.13/site-packages/serial/serialutil.py", line 244, in __init__
+    self.open()
+    ~~~~~~~~~^^
+  File "/home/pi/.local/lib/python3.13/site-packages/serial/serialposix.py", line 325, in open
+    raise SerialException(msg.errno, "could not open port {}: {}".format(self._port, msg))
+serial.serialutil.SerialException: [Errno 2] could not open port /dev/serial/by-id/usb-...-if00: [Errno 2] No such file or directory: '/dev/serial/by-id/usb-...-if00'
+2026-09-10 09:34:46,981 ERROR marker-guidance Guidance/MSP failure; reconnect requires AUX1-low interlock
+Traceback (most recent call last):
+  File "/home/pi/.local/lib/python3.13/site-packages/serial/serialposix.py", line 322, in open
+    self.fd = os.open(self.portstr, os.O_RDWR | os.O_NOCTTY | os.O_NONBLOCK)
+              ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/dev/serial/by-id/usb-...-if00'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/pi/autopilot_bee_ept/claude2.py", line 704, in _run
+    link = _MSP(self.config)
+  File "/home/pi/autopilot_bee_ept/claude2.py", line 312, in __init__
+    self.serial = serial.Serial(
+                  ~~~~~~~~~~~~~^
+        config.port,
+        ^^^^^^^^^^^^
+    ...<2 lines>...
+        write_timeout=config.serial_timeout,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/home/pi/.local/lib/python3.13/site-packages/serial/serialutil.py", line 244, in __init__
+    self.open()
+    ~~~~~~~~~^^
+  File "/home/pi/.local/lib/python3.13/site-packages/serial/serialposix.py", line 325, in open
+    raise SerialException(msg.errno, "could not open port {}: {}".format(self._port, msg))
+serial.serialutil.SerialException: [Errno 2] could not open port /dev/serial/by-id/usb-...-if00: [Errno 2] No such file or directory: '/dev/serial/by-id/usb-...-if00'
+2026-09-10 09:34:47,993 ERROR marker-guidance Guidance/MSP failure; reconnect requires AUX1-low interlock
+Traceback (most recent call last):
+  File "/home/pi/.local/lib/python3.13/site-packages/serial/serialposix.py", line 322, in open
+    self.fd = os.open(self.portstr, os.O_RDWR | os.O_NOCTTY | os.O_NONBLOCK)
+              ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/dev/serial/by-id/usb-...-if00'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/pi/autopilot_bee_ept/claude2.py", line 704, in _run
+    link = _MSP(self.config)
+  File "/home/pi/autopilot_bee_ept/claude2.py", line 312, in __init__
+    self.serial = serial.Serial(
+                  ~~~~~~~~~~~~~^
+        config.port,
+        ^^^^^^^^^^^^
+    ...<2 lines>...
+        write_timeout=config.serial_timeout,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/home/pi/.local/lib/python3.13/site-packages/serial/serialutil.py", line 244, in __init__
+    self.open()
+    ~~~~~~~~~^^
+  File "/home/pi/.local/lib/python3.13/site-packages/serial/serialposix.py", line 325, in open
+    raise SerialException(msg.errno, "could not open port {}: {}".format(self._port, msg))
+serial.serialutil.SerialException: [Errno 2] could not open port /dev/serial/by-id/usb-...-if00: [Errno 2] No such file or directory: '/dev/serial/by-id/usb-...-if00'
+2026-09-10 09:34:49,004 ERROR marker-guidance Guidance/MSP failure; reconnect requires AUX1-low interlock
+Traceback (most recent call last):
+  File "/home/pi/.local/lib/python3.13/site-packages/serial/serialposix.py", line 322, in open
+    self.fd = os.open(self.portstr, os.O_RDWR | os.O_NOCTTY | os.O_NONBLOCK)
+              ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/dev/serial/by-id/usb-...-if00'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/pi/autopilot_bee_ept/claude2.py", line 704, in _run
+    link = _MSP(self.config)
+  File "/home/pi/autopilot_bee_ept/claude2.py", line 312, in __init__
+    self.serial = serial.Serial(
+                  ~~~~~~~~~~~~~^
+        config.port,
+        ^^^^^^^^^^^^
+    ...<2 lines>...
+        write_timeout=config.serial_timeout,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/home/pi/.local/lib/python3.13/site-packages/serial/serialutil.py", line 244, in __init__
+    self.open()
+    ~~~~~~~~~^^
+  File "/home/pi/.local/lib/python3.13/site-packages/serial/serialposix.py", line 325, in open
+    raise SerialException(msg.errno, "could not open port {}: {}".format(self._port, msg))
+serial.serialutil.SerialException: [Errno 2] could not open port /dev/serial/by-id/usb-...-if00: [Errno 2] No such file or directory: '/dev/serial/by-id/usb-...-if00'
+2026-09-10 09:34:50,014 ERROR marker-guidance Guidance/MSP failure; reconnect requires AUX1-low interlock
+Traceback (most recent call last):
+  File "/home/pi/.local/lib/python3.13/site-packages/serial/serialposix.py", line 322, in open
+    self.fd = os.open(self.portstr, os.O_RDWR | os.O_NOCTTY | os.O_NONBLOCK)
+              ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/dev/serial/by-id/usb-...-if00'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/pi/autopilot_bee_ept/claude2.py", line 704, in _run
+    link = _MSP(self.config)
+  File "/home/pi/autopilot_bee_ept/claude2.py", line 312, in __init__
+    self.serial = serial.Serial(
+                  ~~~~~~~~~~~~~^
+        config.port,
+        ^^^^^^^^^^^^
+    ...<2 lines>...
+        write_timeout=config.serial_timeout,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/home/pi/.local/lib/python3.13/site-packages/serial/serialutil.py", line 244, in __init__
+    self.open()
+    ~~~~~~~~~^^
+  File "/home/pi/.local/lib/python3.13/site-packages/serial/serialposix.py", line 325, in open
+    raise SerialException(msg.errno, "could not open port {}: {}".format(self._port, msg))
+serial.serialutil.SerialException: [Errno 2] could not open port /dev/serial/by-id/usb-...-if00: [Errno 2] No such file or directory: '/dev/serial/by-id/usb-...-if00'
+2026-09-10 09:34:51,023 ERROR marker-guidance Guidance/MSP failure; reconnect requires AUX1-low interlock
+Traceback (most recent call last):
+  File "/home/pi/.local/lib/python3.13/site-packages/serial/serialposix.py", line 322, in open
+    self.fd = os.open(self.portstr, os.O_RDWR | os.O_NOCTTY | os.O_NONBLOCK)
+              ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/dev/serial/by-id/usb-...-if00'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/pi/autopilot_bee_ept/claude2.py", line 704, in _run
+    link = _MSP(self.config)
+  File "/home/pi/autopilot_bee_ept/claude2.py", line 312, in __init__
+    self.serial = serial.Serial(
+                  ~~~~~~~~~~~~~^
+        config.port,
+        ^^^^^^^^^^^^
+    ...<2 lines>...
+        write_timeout=config.serial_timeout,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/home/pi/.local/lib/python3.13/site-packages/serial/serialutil.py", line 244, in __init__
+    self.open()
+    ~~~~~~~~~^^
+  File "/home/pi/.local/lib/python3.13/site-packages/serial/serialposix.py", line 325, in open
+    raise SerialException(msg.errno, "could not open port {}: {}".format(self._port, msg))
+serial.serialutil.SerialException: [Errno 2] could not open port /dev/serial/by-id/usb-...-if00: [Errno 2] No such file or directory: '/dev/serial/by-id/usb-...-if00'
+2026-09-10 09:34:52,033 ERROR marker-guidance Guidance/MSP failure; reconnect requires AUX1-low interlock
+Traceback (most recent call last):
+  File "/home/pi/.local/lib/python3.13/site-packages/serial/serialposix.py", line 322, in open
+    self.fd = os.open(self.portstr, os.O_RDWR | os.O_NOCTTY | os.O_NONBLOCK)
+              ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/dev/serial/by-id/usb-...-if00'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/pi/autopilot_bee_ept/claude2.py", line 704, in _run
+    link = _MSP(self.config)
+  File "/home/pi/autopilot_bee_ept/claude2.py", line 312, in __init__
+    self.serial = serial.Serial(
+                  ~~~~~~~~~~~~~^
+        config.port,
+        ^^^^^^^^^^^^
+    ...<2 lines>...
+        write_timeout=config.serial_timeout,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/home/pi/.local/lib/python3.13/site-packages/serial/serialutil.py", line 244, in __init__
+    self.open()
+    ~~~~~~~~~^^
+  File "/home/pi/.local/lib/python3.13/site-packages/serial/serialposix.py", line 325, in open
+    raise SerialException(msg.errno, "could not open port {}: {}".format(self._port, msg))
+serial.serialutil.SerialException: [Errno 2] could not open port /dev/serial/by-id/usb-...-if00: [Errno 2] No such file or directory: '/dev/serial/by-id/usb-...-if00'
+2026-09-10 09:34:53,044 ERROR marker-guidance Guidance/MSP failure; reconnect requires AUX1-low interlock
+Traceback (most recent call last):
+  File "/home/pi/.local/lib/python3.13/site-packages/serial/serialposix.py", line 322, in open
+    self.fd = os.open(self.portstr, os.O_RDWR | os.O_NOCTTY | os.O_NONBLOCK)
+              ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/dev/serial/by-id/usb-...-if00'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/pi/autopilot_bee_ept/claude2.py", line 704, in _run
+    link = _MSP(self.config)
+  File "/home/pi/autopilot_bee_ept/claude2.py", line 312, in __init__
+    self.serial = serial.Serial(
+                  ~~~~~~~~~~~~~^
+        config.port,
+        ^^^^^^^^^^^^
+    ...<2 lines>...
+        write_timeout=config.serial_timeout,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/home/pi/.local/lib/python3.13/site-packages/serial/serialutil.py", line 244, in __init__
+    self.open()
+    ~~~~~~~~~^^
+  File "/home/pi/.local/lib/python3.13/site-packages/serial/serialposix.py", line 325, in open
+    raise SerialException(msg.errno, "could not open port {}: {}".format(self._port, msg))
+serial.serialutil.SerialException: [Errno 2] could not open port /dev/serial/by-id/usb-...-if00: [Errno 2] No such file or directory: '/dev/serial/by-id/usb-...-if00'
+2026-09-10 09:34:54,053 ERROR marker-guidance Guidance/MSP failure; reconnect requires AUX1-low interlock
+Traceback (most recent call last):
+  File "/home/pi/.local/lib/python3.13/site-packages/serial/serialposix.py", line 322, in open
+    self.fd = os.open(self.portstr, os.O_RDWR | os.O_NOCTTY | os.O_NONBLOCK)
+              ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/dev/serial/by-id/usb-...-if00'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/pi/autopilot_bee_ept/claude2.py", line 704, in _run
+    link = _MSP(self.config)
+  File "/home/pi/autopilot_bee_ept/claude2.py", line 312, in __init__
+    self.serial = serial.Serial(
+                  ~~~~~~~~~~~~~^
+        config.port,
+        ^^^^^^^^^^^^
+    ...<2 lines>...
+        write_timeout=config.serial_timeout,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/home/pi/.local/lib/python3.13/site-packages/serial/serialutil.py", line 244, in __init__
+    self.open()
+    ~~~~~~~~~^^
+  File "/home/pi/.local/lib/python3.13/site-packages/serial/serialposix.py", line 325, in open
+    raise SerialException(msg.errno, "could not open port {}: {}".format(self._port, msg))
+serial.serialutil.SerialException: [Errno 2] could not open port /dev/serial/by-id/usb-...-if00: [Errno 2] No such file or directory: '/dev/serial/by-id/usb-...-if00'
+2026-09-10 09:34:55,065 ERROR marker-guidance Guidance/MSP failure; reconnect requires AUX1-low interlock
+Traceback (most recent call last):
+  File "/home/pi/.local/lib/python3.13/site-packages/serial/serialposix.py", line 322, in open
+    self.fd = os.open(self.portstr, os.O_RDWR | os.O_NOCTTY | os.O_NONBLOCK)
+              ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/dev/serial/by-id/usb-...-if00'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/pi/autopilot_bee_ept/claude2.py", line 704, in _run
+    link = _MSP(self.config)
+  File "/home/pi/autopilot_bee_ept/claude2.py", line 312, in __init__
+    self.serial = serial.Serial(
+                  ~~~~~~~~~~~~~^
+        config.port,
+        ^^^^^^^^^^^^
+    ...<2 lines>...
+        write_timeout=config.serial_timeout,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/home/pi/.local/lib/python3.13/site-packages/serial/serialutil.py", line 244, in __init__
+    self.open()
+    ~~~~~~~~~^^
+  File "/home/pi/.local/lib/python3.13/site-packages/serial/serialposix.py", line 325, in open
+    raise SerialException(msg.errno, "could not open port {}: {}".format(self._port, msg))
+serial.serialutil.SerialException: [Errno 2] could not open port /dev/serial/by-id/usb-...-if00: [Errno 2] No such file or directory: '/dev/serial/by-id/usb-...-if00'
+2026-09-10 09:34:56,077 ERROR marker-guidance Guidance/MSP failure; reconnect requires AUX1-low interlock
+Traceback (most recent call last):
+  File "/home/pi/.local/lib/python3.13/site-packages/serial/serialposix.py", line 322, in open
+    self.fd = os.open(self.portstr, os.O_RDWR | os.O_NOCTTY | os.O_NONBLOCK)
+              ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/dev/serial/by-id/usb-...-if00'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/pi/autopilot_bee_ept/claude2.py", line 704, in _run
+    link = _MSP(self.config)
+  File "/home/pi/autopilot_bee_ept/claude2.py", line 312, in __init__
+    self.serial = serial.Serial(
+                  ~~~~~~~~~~~~~^
+        config.port,
+        ^^^^^^^^^^^^
+    ...<2 lines>...
+        write_timeout=config.serial_timeout,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/home/pi/.local/lib/python3.13/site-packages/serial/serialutil.py", line 244, in __init__
+    self.open()
+    ~~~~~~~~~^^
+  File "/home/pi/.local/lib/python3.13/site-packages/serial/serialposix.py", line 325, in open
+    raise SerialException(msg.errno, "could not open port {}: {}".format(self._port, msg))
+serial.serialutil.SerialException: [Errno 2] could not open port /dev/serial/by-id/usb-...-if00: [Errno 2] No such file or directory: '/dev/serial/by-id/usb-...-if00'
+2026-09-10 09:34:57,087 ERROR marker-guidance Guidance/MSP failure; reconnect requires AUX1-low interlock
+Traceback (most recent call last):
+  File "/home/pi/.local/lib/python3.13/site-packages/serial/serialposix.py", line 322, in open
+    self.fd = os.open(self.portstr, os.O_RDWR | os.O_NOCTTY | os.O_NONBLOCK)
+              ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/dev/serial/by-id/usb-...-if00'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/pi/autopilot_bee_ept/claude2.py", line 704, in _run
+    link = _MSP(self.config)
+  File "/home/pi/autopilot_bee_ept/claude2.py", line 312, in __init__
+    self.serial = serial.Serial(
+                  ~~~~~~~~~~~~~^
+        config.port,
+        ^^^^^^^^^^^^
+    ...<2 lines>...
+        write_timeout=config.serial_timeout,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/home/pi/.local/lib/python3.13/site-packages/serial/serialutil.py", line 244, in __init__
+    self.open()
+    ~~~~~~~~~^^
+  File "/home/pi/.local/lib/python3.13/site-packages/serial/serialposix.py", line 325, in open
+    raise SerialException(msg.errno, "could not open port {}: {}".format(self._port, msg))
+serial.serialutil.SerialException: [Errno 2] could not open port /dev/serial/by-id/usb-...-if00: [Errno 2] No such file or directory: '/dev/serial/by-id/usb-...-if00'
+2026-09-10 09:34:58,098 ERROR marker-guidance Guidance/MSP failure; reconnect requires AUX1-low interlock
+Traceback (most recent call last):
+  File "/home/pi/.local/lib/python3.13/site-packages/serial/serialposix.py", line 322, in open
+    self.fd = os.open(self.portstr, os.O_RDWR | os.O_NOCTTY | os.O_NONBLOCK)
+              ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/dev/serial/by-id/usb-...-if00'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/pi/autopilot_bee_ept/claude2.py", line 704, in _run
+    link = _MSP(self.config)
+  File "/home/pi/autopilot_bee_ept/claude2.py", line 312, in __init__
+    self.serial = serial.Serial(
+                  ~~~~~~~~~~~~~^
+        config.port,
+        ^^^^^^^^^^^^
+    ...<2 lines>...
+        write_timeout=config.serial_timeout,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/home/pi/.local/lib/python3.13/site-packages/serial/serialutil.py", line 244, in __init__
+    self.open()
+    ~~~~~~~~~^^
+  File "/home/pi/.local/lib/python3.13/site-packages/serial/serialposix.py", line 325, in open
+    raise SerialException(msg.errno, "could not open port {}: {}".format(self._port, msg))
+serial.serialutil.SerialException: [Errno 2] could not open port /dev/serial/by-id/usb-...-if00: [Errno 2] No such file or directory: '/dev/serial/by-id/usb-...-if00'
+2026-09-10 09:34:59,110 ERROR marker-guidance Guidance/MSP failure; reconnect requires AUX1-low interlock
+Traceback (most recent call last):
+  File "/home/pi/.local/lib/python3.13/site-packages/serial/serialposix.py", line 322, in open
+    self.fd = os.open(self.portstr, os.O_RDWR | os.O_NOCTTY | os.O_NONBLOCK)
+              ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/dev/serial/by-id/usb-...-if00'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/pi/autopilot_bee_ept/claude2.py", line 704, in _run
+    link = _MSP(self.config)
+  File "/home/pi/autopilot_bee_ept/claude2.py", line 312, in __init__
+    self.serial = serial.Serial(
+                  ~~~~~~~~~~~~~^
+        config.port,
+        ^^^^^^^^^^^^
+    ...<2 lines>...
+        write_timeout=config.serial_timeout,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/home/pi/.local/lib/python3.13/site-packages/serial/serialutil.py", line 244, in __init__
+    self.open()
+    ~~~~~~~~~^^
+  File "/home/pi/.local/lib/python3.13/site-packages/serial/serialposix.py", line 325, in open
+    raise SerialException(msg.errno, "could not open port {}: {}".format(self._port, msg))
+serial.serialutil.SerialException: [Errno 2] could not open port /dev/serial/by-id/usb-...-if00: [Errno 2] No such file or directory: '/dev/serial/by-id/usb-...-if00'
+2026-09-10 09:34:59,566 INFO marker-guidance state=LINK_FAULT -> STOPPED reason=no further RC transmissions
+2026-09-10 09:34:59,567 WARNING marker-guidance Stopped. No neutral/throttle/disarm packet was sent; receiver takeover/failsafe remains the flight controller's responsibility.
+2026-09-10 09:37:26,441 WARNING marker-guidance Starting dry_run=True; target class=7; no automatic arming. Firmware must own takeover/failsafe.
+2026-09-10 09:37:26,444 INFO marker-guidance state=None -> LINK_FAULT reason=RC transmission stopped
+2026-09-10 09:37:26,445 ERROR marker-guidance Guidance/MSP failure; reconnect requires AUX1-low interlock
+Traceback (most recent call last):
+  File "/home/pi/.local/lib/python3.13/site-packages/serial/serialposix.py", line 322, in open
+    self.fd = os.open(self.portstr, os.O_RDWR | os.O_NOCTTY | os.O_NONBLOCK)
+              ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/dev/ttyUSB0'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/pi/autopilot_bee_ept/claude2.py", line 704, in _run
+    link = _MSP(self.config)
+  File "/home/pi/autopilot_bee_ept/claude2.py", line 312, in __init__
+    self.serial = serial.Serial(
+                  ~~~~~~~~~~~~~^
+        config.port,
+        ^^^^^^^^^^^^
+    ...<2 lines>...
+        write_timeout=config.serial_timeout,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/home/pi/.local/lib/python3.13/site-packages/serial/serialutil.py", line 244, in __init__
+    self.open()
+    ~~~~~~~~~^^
+  File "/home/pi/.local/lib/python3.13/site-packages/serial/serialposix.py", line 325, in open
+    raise SerialException(msg.errno, "could not open port {}: {}".format(self._port, msg))
+serial.serialutil.SerialException: [Errno 2] could not open port /dev/ttyUSB0: [Errno 2] No such file or directory: '/dev/ttyUSB0'
+2026-09-10 09:37:27,466 ERROR marker-guidance Guidance/MSP failure; reconnect requires AUX1-low interlock
+Traceback (most recent call last):
+  File "/home/pi/.local/lib/python3.13/site-packages/serial/serialposix.py", line 322, in open
+    self.fd = os.open(self.portstr, os.O_RDWR | os.O_NOCTTY | os.O_NONBLOCK)
+              ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/dev/ttyUSB0'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/pi/autopilot_bee_ept/claude2.py", line 704, in _run
+    link = _MSP(self.config)
+  File "/home/pi/autopilot_bee_ept/claude2.py", line 312, in __init__
+    self.serial = serial.Serial(
+                  ~~~~~~~~~~~~~^
+        config.port,
+        ^^^^^^^^^^^^
+    ...<2 lines>...
+        write_timeout=config.serial_timeout,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/home/pi/.local/lib/python3.13/site-packages/serial/serialutil.py", line 244, in __init__
+    self.open()
+    ~~~~~~~~~^^
+  File "/home/pi/.local/lib/python3.13/site-packages/serial/serialposix.py", line 325, in open
+    raise SerialException(msg.errno, "could not open port {}: {}".format(self._port, msg))
+serial.serialutil.SerialException: [Errno 2] could not open port /dev/ttyUSB0: [Errno 2] No such file or directory: '/dev/ttyUSB0'
+2026-09-10 09:37:28,478 ERROR marker-guidance Guidance/MSP failure; reconnect requires AUX1-low interlock
+Traceback (most recent call last):
+  File "/home/pi/.local/lib/python3.13/site-packages/serial/serialposix.py", line 322, in open
+    self.fd = os.open(self.portstr, os.O_RDWR | os.O_NOCTTY | os.O_NONBLOCK)
+              ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/dev/ttyUSB0'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/pi/autopilot_bee_ept/claude2.py", line 704, in _run
+    link = _MSP(self.config)
+  File "/home/pi/autopilot_bee_ept/claude2.py", line 312, in __init__
+    self.serial = serial.Serial(
+                  ~~~~~~~~~~~~~^
+        config.port,
+        ^^^^^^^^^^^^
+    ...<2 lines>...
+        write_timeout=config.serial_timeout,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/home/pi/.local/lib/python3.13/site-packages/serial/serialutil.py", line 244, in __init__
+    self.open()
+    ~~~~~~~~~^^
+  File "/home/pi/.local/lib/python3.13/site-packages/serial/serialposix.py", line 325, in open
+    raise SerialException(msg.errno, "could not open port {}: {}".format(self._port, msg))
+serial.serialutil.SerialException: [Errno 2] could not open port /dev/ttyUSB0: [Errno 2] No such file or directory: '/dev/ttyUSB0'
+2026-09-10 09:37:29,488 ERROR marker-guidance Guidance/MSP failure; reconnect requires AUX1-low interlock
+Traceback (most recent call last):
+  File "/home/pi/.local/lib/python3.13/site-packages/serial/serialposix.py", line 322, in open
+    self.fd = os.open(self.portstr, os.O_RDWR | os.O_NOCTTY | os.O_NONBLOCK)
+              ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/dev/ttyUSB0'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/pi/autopilot_bee_ept/claude2.py", line 704, in _run
+    link = _MSP(self.config)
+  File "/home/pi/autopilot_bee_ept/claude2.py", line 312, in __init__
+    self.serial = serial.Serial(
+                  ~~~~~~~~~~~~~^
+        config.port,
+        ^^^^^^^^^^^^
+    ...<2 lines>...
+        write_timeout=config.serial_timeout,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/home/pi/.local/lib/python3.13/site-packages/serial/serialutil.py", line 244, in __init__
+    self.open()
+    ~~~~~~~~~^^
+  File "/home/pi/.local/lib/python3.13/site-packages/serial/serialposix.py", line 325, in open
+    raise SerialException(msg.errno, "could not open port {}: {}".format(self._port, msg))
+serial.serialutil.SerialException: [Errno 2] could not open port /dev/ttyUSB0: [Errno 2] No such file or directory: '/dev/ttyUSB0'
+2026-09-10 09:37:30,499 ERROR marker-guidance Guidance/MSP failure; reconnect requires AUX1-low interlock
+Traceback (most recent call last):
+  File "/home/pi/.local/lib/python3.13/site-packages/serial/serialposix.py", line 322, in open
+    self.fd = os.open(self.portstr, os.O_RDWR | os.O_NOCTTY | os.O_NONBLOCK)
+              ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/dev/ttyUSB0'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/pi/autopilot_bee_ept/claude2.py", line 704, in _run
+    link = _MSP(self.config)
+  File "/home/pi/autopilot_bee_ept/claude2.py", line 312, in __init__
+    self.serial = serial.Serial(
+                  ~~~~~~~~~~~~~^
+        config.port,
+        ^^^^^^^^^^^^
+    ...<2 lines>...
+        write_timeout=config.serial_timeout,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/home/pi/.local/lib/python3.13/site-packages/serial/serialutil.py", line 244, in __init__
+    self.open()
+    ~~~~~~~~~^^
+  File "/home/pi/.local/lib/python3.13/site-packages/serial/serialposix.py", line 325, in open
+    raise SerialException(msg.errno, "could not open port {}: {}".format(self._port, msg))
+serial.serialutil.SerialException: [Errno 2] could not open port /dev/ttyUSB0: [Errno 2] No such file or directory: '/dev/ttyUSB0'
+2026-09-10 09:37:31,510 ERROR marker-guidance Guidance/MSP failure; reconnect requires AUX1-low interlock
+Traceback (most recent call last):
+  File "/home/pi/.local/lib/python3.13/site-packages/serial/serialposix.py", line 322, in open
+    self.fd = os.open(self.portstr, os.O_RDWR | os.O_NOCTTY | os.O_NONBLOCK)
+              ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/dev/ttyUSB0'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/pi/autopilot_bee_ept/claude2.py", line 704, in _run
+    link = _MSP(self.config)
+  File "/home/pi/autopilot_bee_ept/claude2.py", line 312, in __init__
+    self.serial = serial.Serial(
+                  ~~~~~~~~~~~~~^
+        config.port,
+        ^^^^^^^^^^^^
+    ...<2 lines>...
+        write_timeout=config.serial_timeout,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/home/pi/.local/lib/python3.13/site-packages/serial/serialutil.py", line 244, in __init__
+    self.open()
+    ~~~~~~~~~^^
+  File "/home/pi/.local/lib/python3.13/site-packages/serial/serialposix.py", line 325, in open
+    raise SerialException(msg.errno, "could not open port {}: {}".format(self._port, msg))
+serial.serialutil.SerialException: [Errno 2] could not open port /dev/ttyUSB0: [Errno 2] No such file or directory: '/dev/ttyUSB0'
+2026-09-10 09:37:32,521 ERROR marker-guidance Guidance/MSP failure; reconnect requires AUX1-low interlock
+Traceback (most recent call last):
+  File "/home/pi/.local/lib/python3.13/site-packages/serial/serialposix.py", line 322, in open
+    self.fd = os.open(self.portstr, os.O_RDWR | os.O_NOCTTY | os.O_NONBLOCK)
+              ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/dev/ttyUSB0'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/pi/autopilot_bee_ept/claude2.py", line 704, in _run
+    link = _MSP(self.config)
+  File "/home/pi/autopilot_bee_ept/claude2.py", line 312, in __init__
+    self.serial = serial.Serial(
+                  ~~~~~~~~~~~~~^
+        config.port,
+        ^^^^^^^^^^^^
+    ...<2 lines>...
+        write_timeout=config.serial_timeout,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/home/pi/.local/lib/python3.13/site-packages/serial/serialutil.py", line 244, in __init__
+    self.open()
+    ~~~~~~~~~^^
+  File "/home/pi/.local/lib/python3.13/site-packages/serial/serialposix.py", line 325, in open
+    raise SerialException(msg.errno, "could not open port {}: {}".format(self._port, msg))
+serial.serialutil.SerialException: [Errno 2] could not open port /dev/ttyUSB0: [Errno 2] No such file or directory: '/dev/ttyUSB0'
+2026-09-10 09:37:33,535 ERROR marker-guidance Guidance/MSP failure; reconnect requires AUX1-low interlock
+Traceback (most recent call last):
+  File "/home/pi/.local/lib/python3.13/site-packages/serial/serialposix.py", line 322, in open
+    self.fd = os.open(self.portstr, os.O_RDWR | os.O_NOCTTY | os.O_NONBLOCK)
+              ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/dev/ttyUSB0'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/pi/autopilot_bee_ept/claude2.py", line 704, in _run
+    link = _MSP(self.config)
+  File "/home/pi/autopilot_bee_ept/claude2.py", line 312, in __init__
+    self.serial = serial.Serial(
+                  ~~~~~~~~~~~~~^
+        config.port,
+        ^^^^^^^^^^^^
+    ...<2 lines>...
+        write_timeout=config.serial_timeout,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/home/pi/.local/lib/python3.13/site-packages/serial/serialutil.py", line 244, in __init__
+    self.open()
+    ~~~~~~~~~^^
+  File "/home/pi/.local/lib/python3.13/site-packages/serial/serialposix.py", line 325, in open
+    raise SerialException(msg.errno, "could not open port {}: {}".format(self._port, msg))
+serial.serialutil.SerialException: [Errno 2] could not open port /dev/ttyUSB0: [Errno 2] No such file or directory: '/dev/ttyUSB0'
+2026-09-10 09:37:34,544 ERROR marker-guidance Guidance/MSP failure; reconnect requires AUX1-low interlock
+Traceback (most recent call last):
+  File "/home/pi/.local/lib/python3.13/site-packages/serial/serialposix.py", line 322, in open
+    self.fd = os.open(self.portstr, os.O_RDWR | os.O_NOCTTY | os.O_NONBLOCK)
+              ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/dev/ttyUSB0'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/pi/autopilot_bee_ept/claude2.py", line 704, in _run
+    link = _MSP(self.config)
+  File "/home/pi/autopilot_bee_ept/claude2.py", line 312, in __init__
+    self.serial = serial.Serial(
+                  ~~~~~~~~~~~~~^
+        config.port,
+        ^^^^^^^^^^^^
+    ...<2 lines>...
+        write_timeout=config.serial_timeout,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/home/pi/.local/lib/python3.13/site-packages/serial/serialutil.py", line 244, in __init__
+    self.open()
+    ~~~~~~~~~^^
+  File "/home/pi/.local/lib/python3.13/site-packages/serial/serialposix.py", line 325, in open
+    raise SerialException(msg.errno, "could not open port {}: {}".format(self._port, msg))
+serial.serialutil.SerialException: [Errno 2] could not open port /dev/ttyUSB0: [Errno 2] No such file or directory: '/dev/ttyUSB0'
+2026-09-10 09:37:35,557 ERROR marker-guidance Guidance/MSP failure; reconnect requires AUX1-low interlock
+Traceback (most recent call last):
+  File "/home/pi/.local/lib/python3.13/site-packages/serial/serialposix.py", line 322, in open
+    self.fd = os.open(self.portstr, os.O_RDWR | os.O_NOCTTY | os.O_NONBLOCK)
+              ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/dev/ttyUSB0'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/pi/autopilot_bee_ept/claude2.py", line 704, in _run
+    link = _MSP(self.config)
+  File "/home/pi/autopilot_bee_ept/claude2.py", line 312, in __init__
+    self.serial = serial.Serial(
+                  ~~~~~~~~~~~~~^
+        config.port,
+        ^^^^^^^^^^^^
+    ...<2 lines>...
+        write_timeout=config.serial_timeout,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/home/pi/.local/lib/python3.13/site-packages/serial/serialutil.py", line 244, in __init__
+    self.open()
+    ~~~~~~~~~^^
+  File "/home/pi/.local/lib/python3.13/site-packages/serial/serialposix.py", line 325, in open
+    raise SerialException(msg.errno, "could not open port {}: {}".format(self._port, msg))
+serial.serialutil.SerialException: [Errno 2] could not open port /dev/ttyUSB0: [Errno 2] No such file or directory: '/dev/ttyUSB0'
+2026-09-10 09:37:36,566 ERROR marker-guidance Guidance/MSP failure; reconnect requires AUX1-low interlock
+Traceback (most recent call last):
+  File "/home/pi/.local/lib/python3.13/site-packages/serial/serialposix.py", line 322, in open
+    self.fd = os.open(self.portstr, os.O_RDWR | os.O_NOCTTY | os.O_NONBLOCK)
+              ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/dev/ttyUSB0'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/pi/autopilot_bee_ept/claude2.py", line 704, in _run
+    link = _MSP(self.config)
+  File "/home/pi/autopilot_bee_ept/claude2.py", line 312, in __init__
+    self.serial = serial.Serial(
+                  ~~~~~~~~~~~~~^
+        config.port,
+        ^^^^^^^^^^^^
+    ...<2 lines>...
+        write_timeout=config.serial_timeout,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/home/pi/.local/lib/python3.13/site-packages/serial/serialutil.py", line 244, in __init__
+    self.open()
+    ~~~~~~~~~^^
+  File "/home/pi/.local/lib/python3.13/site-packages/serial/serialposix.py", line 325, in open
+    raise SerialException(msg.errno, "could not open port {}: {}".format(self._port, msg))
+serial.serialutil.SerialException: [Errno 2] could not open port /dev/ttyUSB0: [Errno 2] No such file or directory: '/dev/ttyUSB0'
+2026-09-10 09:37:36,727 INFO marker-guidance state=LINK_FAULT -> STOPPED reason=no further RC transmissions
+2026-09-10 09:37:36,728 WARNING marker-guidance Stopped. No neutral/throttle/disarm packet was sent; receiver takeover/failsafe remains the flight controller's responsibility.
+2026-09-10 09:37:53,203 WARNING marker-guidance Starting dry_run=True; target class=7; no automatic arming. Firmware must own takeover/failsafe.
+2026-09-10 09:37:53,206 INFO marker-guidance state=None -> LINK_FAULT reason=RC transmission stopped
+2026-09-10 09:37:53,207 ERROR marker-guidance Guidance/MSP failure; reconnect requires AUX1-low interlock
+Traceback (most recent call last):
+  File "/home/pi/.local/lib/python3.13/site-packages/serial/serialposix.py", line 322, in open
+    self.fd = os.open(self.portstr, os.O_RDWR | os.O_NOCTTY | os.O_NONBLOCK)
+              ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/dev/ttyUSB'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/pi/autopilot_bee_ept/claude2.py", line 704, in _run
+    link = _MSP(self.config)
+  File "/home/pi/autopilot_bee_ept/claude2.py", line 312, in __init__
+    self.serial = serial.Serial(
+                  ~~~~~~~~~~~~~^
+        config.port,
+        ^^^^^^^^^^^^
+    ...<2 lines>...
+        write_timeout=config.serial_timeout,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/home/pi/.local/lib/python3.13/site-packages/serial/serialutil.py", line 244, in __init__
+    self.open()
+    ~~~~~~~~~^^
+  File "/home/pi/.local/lib/python3.13/site-packages/serial/serialposix.py", line 325, in open
+    raise SerialException(msg.errno, "could not open port {}: {}".format(self._port, msg))
+serial.serialutil.SerialException: [Errno 2] could not open port /dev/ttyUSB: [Errno 2] No such file or directory: '/dev/ttyUSB'
+2026-09-10 09:37:54,228 ERROR marker-guidance Guidance/MSP failure; reconnect requires AUX1-low interlock
+Traceback (most recent call last):
+  File "/home/pi/.local/lib/python3.13/site-packages/serial/serialposix.py", line 322, in open
+    self.fd = os.open(self.portstr, os.O_RDWR | os.O_NOCTTY | os.O_NONBLOCK)
+              ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/dev/ttyUSB'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/pi/autopilot_bee_ept/claude2.py", line 704, in _run
+    link = _MSP(self.config)
+  File "/home/pi/autopilot_bee_ept/claude2.py", line 312, in __init__
+    self.serial = serial.Serial(
+                  ~~~~~~~~~~~~~^
+        config.port,
+        ^^^^^^^^^^^^
+    ...<2 lines>...
+        write_timeout=config.serial_timeout,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/home/pi/.local/lib/python3.13/site-packages/serial/serialutil.py", line 244, in __init__
+    self.open()
+    ~~~~~~~~~^^
+  File "/home/pi/.local/lib/python3.13/site-packages/serial/serialposix.py", line 325, in open
+    raise SerialException(msg.errno, "could not open port {}: {}".format(self._port, msg))
+serial.serialutil.SerialException: [Errno 2] could not open port /dev/ttyUSB: [Errno 2] No such file or directory: '/dev/ttyUSB'
+2026-09-10 09:37:55,242 ERROR marker-guidance Guidance/MSP failure; reconnect requires AUX1-low interlock
+Traceback (most recent call last):
+  File "/home/pi/.local/lib/python3.13/site-packages/serial/serialposix.py", line 322, in open
+    self.fd = os.open(self.portstr, os.O_RDWR | os.O_NOCTTY | os.O_NONBLOCK)
+              ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/dev/ttyUSB'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/pi/autopilot_bee_ept/claude2.py", line 704, in _run
+    link = _MSP(self.config)
+  File "/home/pi/autopilot_bee_ept/claude2.py", line 312, in __init__
+    self.serial = serial.Serial(
+                  ~~~~~~~~~~~~~^
+        config.port,
+        ^^^^^^^^^^^^
+    ...<2 lines>...
+        write_timeout=config.serial_timeout,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/home/pi/.local/lib/python3.13/site-packages/serial/serialutil.py", line 244, in __init__
+    self.open()
+    ~~~~~~~~~^^
+  File "/home/pi/.local/lib/python3.13/site-packages/serial/serialposix.py", line 325, in open
+    raise SerialException(msg.errno, "could not open port {}: {}".format(self._port, msg))
+serial.serialutil.SerialException: [Errno 2] could not open port /dev/ttyUSB: [Errno 2] No such file or directory: '/dev/ttyUSB'
+2026-09-10 09:37:56,251 ERROR marker-guidance Guidance/MSP failure; reconnect requires AUX1-low interlock
+Traceback (most recent call last):
+  File "/home/pi/.local/lib/python3.13/site-packages/serial/serialposix.py", line 322, in open
+    self.fd = os.open(self.portstr, os.O_RDWR | os.O_NOCTTY | os.O_NONBLOCK)
+              ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/dev/ttyUSB'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/pi/autopilot_bee_ept/claude2.py", line 704, in _run
+    link = _MSP(self.config)
+  File "/home/pi/autopilot_bee_ept/claude2.py", line 312, in __init__
+    self.serial = serial.Serial(
+                  ~~~~~~~~~~~~~^
+        config.port,
+        ^^^^^^^^^^^^
+    ...<2 lines>...
+        write_timeout=config.serial_timeout,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/home/pi/.local/lib/python3.13/site-packages/serial/serialutil.py", line 244, in __init__
+    self.open()
+    ~~~~~~~~~^^
+  File "/home/pi/.local/lib/python3.13/site-packages/serial/serialposix.py", line 325, in open
+    raise SerialException(msg.errno, "could not open port {}: {}".format(self._port, msg))
+serial.serialutil.SerialException: [Errno 2] could not open port /dev/ttyUSB: [Errno 2] No such file or directory: '/dev/ttyUSB'
+2026-09-10 09:37:57,265 ERROR marker-guidance Guidance/MSP failure; reconnect requires AUX1-low interlock
+Traceback (most recent call last):
+  File "/home/pi/.local/lib/python3.13/site-packages/serial/serialposix.py", line 322, in open
+    self.fd = os.open(self.portstr, os.O_RDWR | os.O_NOCTTY | os.O_NONBLOCK)
+              ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/dev/ttyUSB'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/pi/autopilot_bee_ept/claude2.py", line 704, in _run
+    link = _MSP(self.config)
+  File "/home/pi/autopilot_bee_ept/claude2.py", line 312, in __init__
+    self.serial = serial.Serial(
+                  ~~~~~~~~~~~~~^
+        config.port,
+        ^^^^^^^^^^^^
+    ...<2 lines>...
+        write_timeout=config.serial_timeout,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/home/pi/.local/lib/python3.13/site-packages/serial/serialutil.py", line 244, in __init__
+    self.open()
+    ~~~~~~~~~^^
+  File "/home/pi/.local/lib/python3.13/site-packages/serial/serialposix.py", line 325, in open
+    raise SerialException(msg.errno, "could not open port {}: {}".format(self._port, msg))
+serial.serialutil.SerialException: [Errno 2] could not open port /dev/ttyUSB: [Errno 2] No such file or directory: '/dev/ttyUSB'
+2026-09-10 09:37:58,277 ERROR marker-guidance Guidance/MSP failure; reconnect requires AUX1-low interlock
+Traceback (most recent call last):
+  File "/home/pi/.local/lib/python3.13/site-packages/serial/serialposix.py", line 322, in open
+    self.fd = os.open(self.portstr, os.O_RDWR | os.O_NOCTTY | os.O_NONBLOCK)
+              ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/dev/ttyUSB'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/pi/autopilot_bee_ept/claude2.py", line 704, in _run
+    link = _MSP(self.config)
+  File "/home/pi/autopilot_bee_ept/claude2.py", line 312, in __init__
+    self.serial = serial.Serial(
+                  ~~~~~~~~~~~~~^
+        config.port,
+        ^^^^^^^^^^^^
+    ...<2 lines>...
+        write_timeout=config.serial_timeout,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/home/pi/.local/lib/python3.13/site-packages/serial/serialutil.py", line 244, in __init__
+    self.open()
+    ~~~~~~~~~^^
+  File "/home/pi/.local/lib/python3.13/site-packages/serial/serialposix.py", line 325, in open
+    raise SerialException(msg.errno, "could not open port {}: {}".format(self._port, msg))
+serial.serialutil.SerialException: [Errno 2] could not open port /dev/ttyUSB: [Errno 2] No such file or directory: '/dev/ttyUSB'
+2026-09-10 09:37:59,288 ERROR marker-guidance Guidance/MSP failure; reconnect requires AUX1-low interlock
+Traceback (most recent call last):
+  File "/home/pi/.local/lib/python3.13/site-packages/serial/serialposix.py", line 322, in open
+    self.fd = os.open(self.portstr, os.O_RDWR | os.O_NOCTTY | os.O_NONBLOCK)
+              ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/dev/ttyUSB'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/pi/autopilot_bee_ept/claude2.py", line 704, in _run
+    link = _MSP(self.config)
+  File "/home/pi/autopilot_bee_ept/claude2.py", line 312, in __init__
+    self.serial = serial.Serial(
+                  ~~~~~~~~~~~~~^
+        config.port,
+        ^^^^^^^^^^^^
+    ...<2 lines>...
+        write_timeout=config.serial_timeout,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/home/pi/.local/lib/python3.13/site-packages/serial/serialutil.py", line 244, in __init__
+    self.open()
+    ~~~~~~~~~^^
+  File "/home/pi/.local/lib/python3.13/site-packages/serial/serialposix.py", line 325, in open
+    raise SerialException(msg.errno, "could not open port {}: {}".format(self._port, msg))
+serial.serialutil.SerialException: [Errno 2] could not open port /dev/ttyUSB: [Errno 2] No such file or directory: '/dev/ttyUSB'
+2026-09-10 09:38:00,300 ERROR marker-guidance Guidance/MSP failure; reconnect requires AUX1-low interlock
+Traceback (most recent call last):
+  File "/home/pi/.local/lib/python3.13/site-packages/serial/serialposix.py", line 322, in open
+    self.fd = os.open(self.portstr, os.O_RDWR | os.O_NOCTTY | os.O_NONBLOCK)
+              ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/dev/ttyUSB'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/pi/autopilot_bee_ept/claude2.py", line 704, in _run
+    link = _MSP(self.config)
+  File "/home/pi/autopilot_bee_ept/claude2.py", line 312, in __init__
+    self.serial = serial.Serial(
+                  ~~~~~~~~~~~~~^
+        config.port,
+        ^^^^^^^^^^^^
+    ...<2 lines>...
+        write_timeout=config.serial_timeout,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/home/pi/.local/lib/python3.13/site-packages/serial/serialutil.py", line 244, in __init__
+    self.open()
+    ~~~~~~~~~^^
+  File "/home/pi/.local/lib/python3.13/site-packages/serial/serialposix.py", line 325, in open
+    raise SerialException(msg.errno, "could not open port {}: {}".format(self._port, msg))
+serial.serialutil.SerialException: [Errno 2] could not open port /dev/ttyUSB: [Errno 2] No such file or directory: '/dev/ttyUSB'
+2026-09-10 09:38:01,027 INFO marker-guidance state=LINK_FAULT -> STOPPED reason=no further RC transmissions
+2026-09-10 09:38:01,028 WARNING marker-guidance Stopped. No neutral/throttle/disarm packet was sent; receiver takeover/failsafe remains the flight controller's responsibility.
+2026-09-10 09:38:31,034 WARNING marker-guidance Starting dry_run=True; target class=7; no automatic arming. Firmware must own takeover/failsafe.
+2026-09-10 09:38:31,084 INFO marker-guidance Connected variant='BTFL' firmware=(25, 12, 2, 9, 50, 48, 50, 53, 46, 49, 50, 46, 50) api=(0, 1, 47)
+2026-09-10 09:38:31,086 INFO marker-guidance state=None -> WAIT_AUX_LOW reason=startup/reconnection interlock
+2026-09-10 09:38:31,099 INFO marker-guidance state=WAIT_AUX_LOW -> STANDBY reason=physical AUX1 low; no RC transmission
+2026-09-10 09:38:58,027 INFO marker-guidance state=STANDBY -> ACQUIRING reason=no confirmed marker
+2026-09-10 09:38:59,067 INFO marker-guidance state=ACQUIRING -> FAULT reason=no confirmed marker
+2026-09-10 09:39:27,947 INFO marker-guidance state=FAULT -> STANDBY reason=physical AUX1 low; no RC transmission
+2026-09-10 09:39:37,776 INFO marker-guidance state=STANDBY -> STOPPED reason=no further RC transmissions
+2026-09-10 09:39:37,777 WARNING marker-guidance Stopped. No neutral/throttle/disarm packet was sent; receiver takeover/failsafe remains the flight controller's responsibility.
+2026-09-10 09:41:33,075 WARNING marker-guidance Starting dry_run=True; target class=0; no automatic arming. Firmware must own takeover/failsafe.
+2026-09-10 09:41:33,115 INFO marker-guidance Connected variant='BTFL' firmware=(25, 12, 2, 9, 50, 48, 50, 53, 46, 49, 50, 46, 50) api=(0, 1, 47)
+2026-09-10 09:41:33,116 INFO marker-guidance state=None -> WAIT_AUX_LOW reason=startup/reconnection interlock
+2026-09-10 09:41:33,147 INFO marker-guidance state=WAIT_AUX_LOW -> STANDBY reason=physical AUX1 low; no RC transmission
+2026-09-10 09:41:34,958 WARNING MainThread Rejected marker box (0.00792776420712471, 0.01911155879497528, 0.9819096326828003, 1.002436876296997): expected fully visible normalized xyxy
+2026-09-10 09:41:35,328 WARNING MainThread Rejected marker box (0.007361495867371559, 0.02201368659734726, 0.9813433885574341, 1.0006673336029053): expected fully visible normalized xyxy
+2026-09-10 09:41:36,454 WARNING MainThread Rejected marker box (0.005981215741485357, 0.016523534432053566, 0.9816619157791138, 1.0026891231536865): expected fully visible normalized xyxy
+2026-09-10 09:41:37,011 WARNING MainThread Rejected marker box (0.006388221867382526, 0.017322059720754623, 0.9812195301055908, 1.0041910409927368): expected fully visible normalized xyxy
+2026-09-10 09:41:37,201 WARNING MainThread Rejected marker box (0.006591724697500467, 0.017721323296427727, 0.9809982776641846, 1.0049419403076172): expected fully visible normalized xyxy
+2026-09-10 09:41:37,389 WARNING MainThread Rejected marker box (0.006693475879728794, 0.017920956015586853, 0.9808876514434814, 1.0053174495697021): expected fully visible normalized xyxy
+2026-09-10 09:41:37,578 WARNING MainThread Rejected marker box (0.006744351703673601, 0.01802077144384384, 0.9808323383331299, 1.0055052042007446): expected fully visible normalized xyxy
+2026-09-10 09:41:40,938 WARNING MainThread Rejected marker box (-0.0045301467180252075, 0.02491581439971924, 0.34882140159606934, 0.9988976716995239): expected fully visible normalized xyxy
+2026-09-10 09:41:41,125 WARNING MainThread Rejected marker box (-0.0022650733590126038, 0.021518200635910034, 0.43715929985046387, 1.0022952556610107): expected fully visible normalized xyxy
+2026-09-10 09:41:41,319 WARNING MainThread Rejected marker box (-0.0011325366795063019, 0.010759100317955017, 0.5266296863555908, 0.9949337840080261): expected fully visible normalized xyxy
+2026-09-10 09:41:41,506 WARNING MainThread Rejected marker box (-0.0005662683397531509, 0.014439843595027924, 0.5713648796081543, 1.000313401222229): expected fully visible normalized xyxy
+2026-09-10 09:41:41,699 WARNING MainThread Rejected marker box (-0.004813280887901783, 0.007219921797513962, 0.6435641646385193, 0.9939428567886353): expected fully visible normalized xyxy
+2026-09-10 09:41:41,887 WARNING MainThread Rejected marker box (-0.005804254207760096, 0.003609960898756981, 0.696651816368103, 0.9907575845718384): expected fully visible normalized xyxy
+2026-09-10 09:41:42,083 WARNING MainThread Rejected marker box (-0.006299740634858608, 0.0018049804493784904, 0.7231956720352173, 0.9891649484634399): expected fully visible normalized xyxy
+2026-09-10 09:41:43,035 WARNING MainThread Rejected marker box (0.06280051171779633, 0.004586567170917988, 0.864499568939209, 1.001212477684021): expected fully visible normalized xyxy
+2026-09-10 09:41:43,607 WARNING MainThread Rejected marker box (0.024271858856081963, 0.005103482399135828, 0.8379825353622437, 1.0028676986694336): expected fully visible normalized xyxy
+2026-09-10 09:41:45,709 WARNING MainThread Rejected marker box (0.18615131080150604, 0.004535145591944456, 0.9463961124420166, 1.0011776685714722): expected fully visible normalized xyxy
+2026-09-10 09:41:46,098 WARNING MainThread Rejected marker box (0.1750807911157608, 0.005663948133587837, 0.8645908236503601, 1.0045640468597412): expected fully visible normalized xyxy
+2026-09-10 09:41:46,486 WARNING MainThread Rejected marker box (0.10322839021682739, 0.005946148652583361, 0.7727896571159363, 1.0054106712341309): expected fully visible normalized xyxy
+2026-09-10 09:41:46,679 WARNING MainThread Rejected marker box (0.06293955445289612, 0.007503235712647438, 0.7601320743560791, 1.0100818872451782): expected fully visible normalized xyxy
+2026-09-10 09:41:46,869 WARNING MainThread Rejected marker box (0.04053008556365967, 0.00828177947551012, 0.7741889357566833, 1.0124175548553467): expected fully visible normalized xyxy
+2026-09-10 09:41:47,063 WARNING MainThread Rejected marker box (0.02479518949985504, 0.008671050891280174, 0.7857475280761719, 1.0135853290557861): expected fully visible normalized xyxy
+2026-09-10 09:41:47,250 WARNING MainThread Rejected marker box (0.00786743313074112, 0.01679343357682228, 0.7824665307998657, 1.0062415599822998): expected fully visible normalized xyxy
+2026-09-10 09:41:47,828 WARNING MainThread Rejected marker box (-0.0007153702899813652, 0.002099179197102785, 0.7224024534225464, 0.9899059534072876): expected fully visible normalized xyxy
+2026-09-10 09:41:48,019 WARNING MainThread Rejected marker box (-0.001490218099206686, 0.0010495895985513926, 0.7156853079795837, 0.9887391328811646): expected fully visible normalized xyxy
+2026-09-10 09:41:48,211 WARNING MainThread Rejected marker box (0.0037850376684218645, 0.005054956302046776, 0.7247846126556396, 1.0017461776733398): expected fully visible normalized xyxy
+2026-09-10 09:41:48,967 WARNING MainThread Rejected marker box (0.271337628364563, 0.004846096504479647, 0.920325517654419, 1.0020486116409302): expected fully visible normalized xyxy
+2026-09-10 09:41:49,530 WARNING MainThread Rejected marker box (0.46937769651412964, 0.0006057620630599558, 1.000118374824524, 0.9893818497657776): expected fully visible normalized xyxy
+2026-09-10 09:41:49,722 WARNING MainThread Rejected marker box (0.4747866988182068, 0.0003028810315299779, 1.0029056072235107, 0.9884771108627319): expected fully visible normalized xyxy
+2026-09-10 09:41:49,909 WARNING MainThread Rejected marker box (0.47749119997024536, 0.00015144051576498896, 1.004299283027649, 0.9880247116088867): expected fully visible normalized xyxy
+2026-09-10 09:41:51,083 INFO marker-guidance state=STANDBY -> ACQUIRING reason=no confirmed marker
+2026-09-10 09:41:51,236 WARNING MainThread Rejected marker box (0.44752568006515503, 1.1831290294139762e-06, 1.0023728609085083, 0.9875758290290833): expected fully visible normalized xyxy
+2026-09-10 09:41:51,620 WARNING MainThread Rejected marker box (0.44541358947753906, 2.9578225735349406e-07, 1.0042965412139893, 0.9875732064247131): expected fully visible normalized xyxy
+2026-09-10 09:41:52,091 INFO marker-guidance state=ACQUIRING -> FAULT reason=no confirmed marker
+2026-09-10 09:41:52,190 WARNING MainThread Rejected marker box (0.4665045142173767, 3.697278216918676e-08, 1.001271367073059, 0.987572431564331): expected fully visible normalized xyxy
+2026-09-10 09:41:52,380 WARNING MainThread Rejected marker box (0.4733501076698303, 1.848639108459338e-08, 1.0034821033477783, 0.9875723719596863): expected fully visible normalized xyxy
+2026-09-10 09:41:52,569 WARNING MainThread Rejected marker box (0.47677290439605713, 9.24319554229669e-09, 1.0045875310897827, 0.9875723123550415): expected fully visible normalized xyxy
+2026-09-10 09:41:53,135 WARNING MainThread Rejected marker box (0.45003876090049744, 1.1553994427870862e-09, 1.003572702407837, 0.9875723123550415): expected fully visible normalized xyxy
+2026-09-10 09:41:53,322 WARNING MainThread Rejected marker box (0.410755455493927, 0.004530162084847689, 0.9955725073814392, 1.0011627674102783): expected fully visible normalized xyxy
+2026-09-10 09:41:53,515 WARNING MainThread Rejected marker box (0.37978842854499817, 0.006795242428779602, 0.9893072843551636, 1.007957935333252): expected fully visible normalized xyxy
+2026-09-10 09:41:53,705 WARNING MainThread Rejected marker box (0.35184699296951294, 0.007927782833576202, 0.9805120229721069, 1.0113555192947388): expected fully visible normalized xyxy
+2026-09-10 09:41:53,895 WARNING MainThread Rejected marker box (0.21782737970352173, 0.008494053035974503, 0.987439751625061, 1.013054370880127): expected fully visible normalized xyxy
+2026-09-10 09:41:54,082 WARNING MainThread Rejected marker box (0.30144500732421875, 0.008777188137173653, 0.9943012595176697, 1.0139037370681763): expected fully visible normalized xyxy
+2026-09-10 09:41:54,274 WARNING MainThread Rejected marker box (0.3557116985321045, 0.008918755687773228, 1.0033947229385376, 1.0143284797668457): expected fully visible normalized xyxy
+2026-09-10 09:41:54,459 WARNING MainThread Rejected marker box (0.37378478050231934, 0.004459377843886614, 0.9988811016082764, 1.0009503364562988): expected fully visible normalized xyxy
+2026-09-10 09:41:54,832 WARNING MainThread Rejected marker box (0.48983412981033325, 0.0011148444609716535, 1.0017248392105103, 0.9909168481826782): expected fully visible normalized xyxy
+2026-09-10 09:41:55,410 WARNING MainThread Rejected marker box (0.51112961769104, 0.00013935555762145668, 1.0026487112045288, 0.9879903793334961): expected fully visible normalized xyxy
+2026-09-10 09:41:55,597 WARNING MainThread Rejected marker box (0.46055400371551514, 0.004599839448928833, 1.007568359375, 1.0013717412948608): expected fully visible normalized xyxy
+2026-09-10 09:41:55,791 WARNING MainThread Rejected marker box (0.3718441128730774, 0.006830081343650818, 0.9783172011375427, 1.0080623626708984): expected fully visible normalized xyxy
+2026-09-10 09:41:57,123 WARNING MainThread Rejected marker box (0.012177679687738419, 0.010812475346028805, 0.36736518144607544, 1.0041542053222656): expected fully visible normalized xyxy
+2026-09-10 09:42:00,289 WARNING MainThread Rejected marker box (-0.009060293436050415, 0.02491581439971924, 0.3171103596687317, 0.9988976716995239): expected fully visible normalized xyxy
+2026-09-10 09:42:00,475 WARNING MainThread Rejected marker box (-0.003397613763809204, 0.02491581439971924, 0.4065808057785034, 0.9988976716995239): expected fully visible normalized xyxy
+2026-09-10 09:42:02,554 WARNING MainThread Rejected marker box (0.6711215972900391, 0.009072474204003811, 0.9884233474731445, 1.0056984424591064): expected fully visible normalized xyxy
+2026-09-10 09:42:02,741 WARNING MainThread Rejected marker box (0.6798520088195801, 0.0045362371020019054, 1.001588225364685, 0.996635377407074): expected fully visible normalized xyxy
+2026-09-10 09:42:03,310 WARNING MainThread Rejected marker box (0.7612297534942627, 0.014726025983691216, 1.0081707239151, 0.9977664947509766): expected fully visible normalized xyxy
+2026-09-10 09:42:03,499 WARNING MainThread Rejected marker box (0.801918625831604, 0.0198209211230278, 1.0114619731903076, 0.9983320832252502): expected fully visible normalized xyxy
+2026-09-10 09:42:03,687 WARNING MainThread Rejected marker box (0.8222631216049194, 0.0099104605615139, 1.0131075382232666, 0.9929522275924683): expected fully visible normalized xyxy
+2026-09-10 09:42:04,066 WARNING MainThread Rejected marker box (0.8199774026870728, 0.006087763234972954, 1.0037375688552856, 0.9936598539352417): expected fully visible normalized xyxy
+2026-09-10 09:42:04,258 WARNING MainThread Rejected marker box (0.8312925100326538, 0.015501788817346096, 1.0092453956604004, 0.9962787628173828): expected fully visible normalized xyxy
+2026-09-10 09:42:04,451 WARNING MainThread Rejected marker box (0.8369500637054443, 0.007750894408673048, 1.0119993686676025, 0.9919255375862122): expected fully visible normalized xyxy
+2026-09-10 09:42:04,644 WARNING MainThread Rejected marker box (0.8397787809371948, 0.016333354637026787, 1.013376235961914, 0.9954116344451904): expected fully visible normalized xyxy
+2026-09-10 09:42:04,840 WARNING MainThread Rejected marker box (0.8310003280639648, 0.003636515699326992, 1.001606822013855, 1.0005522966384888): expected fully visible normalized xyxy
+2026-09-10 09:42:05,027 WARNING MainThread Rejected marker box (0.8243460655212402, -0.0004468080587685108, 0.9979871511459351, 1.0008575916290283): expected fully visible normalized xyxy
+2026-09-10 09:42:05,222 WARNING MainThread Rejected marker box (0.8210189342498779, -0.0024884699378162622, 0.9961773157119751, 1.0010101795196533): expected fully visible normalized xyxy
+2026-09-10 09:42:05,411 WARNING MainThread Rejected marker box (0.8318132162094116, -0.0012442349689081311, 1.0054652690887451, 0.9942912459373474): expected fully visible normalized xyxy
+2026-09-10 09:42:05,604 WARNING MainThread Rejected marker box (0.8372104167938232, 0.011835789307951927, 1.0101091861724854, 0.9965944290161133): expected fully visible normalized xyxy
+2026-09-10 09:42:05,797 WARNING MainThread Rejected marker box (0.8274511098861694, 0.0013877330347895622, 1.002238392829895, 1.0011436939239502): expected fully visible normalized xyxy
+2026-09-10 09:42:06,174 WARNING MainThread Rejected marker box (0.8350293636322021, 0.013151774182915688, 1.008495807647705, 1.0000207424163818): expected fully visible normalized xyxy
+2026-09-10 09:42:06,369 WARNING MainThread Rejected marker box (0.8388184309005737, 0.01903379335999489, 1.0116245746612549, 0.9994592070579529): expected fully visible normalized xyxy
+2026-09-10 09:42:06,559 WARNING MainThread Rejected marker box (0.8407130241394043, 0.009516896679997444, 1.0131888389587402, 0.9935157299041748): expected fully visible normalized xyxy
+2026-09-10 09:42:06,749 WARNING MainThread Rejected marker box (0.8416602611541748, 0.009288609959185123, 1.0139710903167725, 1.0041344165802002): expected fully visible normalized xyxy
+2026-09-10 09:42:06,940 WARNING MainThread Rejected marker box (0.8296760320663452, 0.01370459794998169, 1.0086994171142578, 1.0049136877059937): expected fully visible normalized xyxy
+2026-09-10 09:42:07,133 WARNING MainThread Rejected marker box (0.7817800045013428, 0.011382460594177246, 1.0026659965515137, 1.0098333358764648): expected fully visible normalized xyxy
+2026-09-10 09:42:07,322 WARNING MainThread Rejected marker box (0.7193257212638855, 0.010221391916275024, 1.0064444541931152, 1.0122932195663452): expected fully visible normalized xyxy
+2026-09-10 09:42:07,513 WARNING MainThread Rejected marker box (0.6246764659881592, 0.009640857577323914, 1.008333683013916, 1.0135231018066406): expected fully visible normalized xyxy
+2026-09-10 09:42:07,702 WARNING MainThread Rejected marker box (0.49467670917510986, 0.013880722224712372, 0.9877601265907288, 1.0096080303192139): expected fully visible normalized xyxy
+2026-09-10 09:42:09,031 WARNING MainThread Rejected marker box (0.013579711318016052, 0.004638604819774628, 0.5397791862487793, 1.0013349056243896): expected fully visible normalized xyxy
+2026-09-10 09:42:09,219 WARNING MainThread Rejected marker box (0.006789855659008026, 0.006849464029073715, 0.378613144159317, 1.0080440044403076): expected fully visible normalized xyxy
+2026-09-10 09:42:17,601 WARNING MainThread Rejected marker box (-0.0025481954216957092, 0.003114476799964905, 0.7409623861312866, 0.9889879822731018): expected fully visible normalized xyxy
+2026-09-10 09:42:17,788 WARNING MainThread Rejected marker box (-0.005804244428873062, 0.0015572383999824524, 0.8053753972053528, 0.988280177116394): expected fully visible normalized xyxy
+2026-09-10 09:42:21,198 WARNING MainThread Rejected marker box (0.057923756539821625, 0.004530173726379871, 0.6989154815673828, 1.0011627674102783): expected fully visible normalized xyxy
+2026-09-10 09:42:21,957 WARNING MainThread Rejected marker box (0.03887045755982399, 0.004813297651708126, 0.7502437829971313, 1.0020121335983276): expected fully visible normalized xyxy
+2026-09-10 09:42:22,151 WARNING MainThread Rejected marker box (0.08625490963459015, 0.006936810445040464, 0.7884979248046875, 1.0083825588226318): expected fully visible normalized xyxy
+2026-09-10 09:42:22,338 WARNING MainThread Rejected marker box (0.19828501343727112, 0.007998567074537277, 0.8733121156692505, 1.0115678310394287): expected fully visible normalized xyxy
+2026-09-10 09:42:23,472 WARNING MainThread Rejected marker box (0.5855053663253784, 0.01088409312069416, 0.9972538948059082, 1.0043690204620361): expected fully visible normalized xyxy
+2026-09-10 09:42:23,690 INFO marker-guidance state=FAULT -> STANDBY reason=physical AUX1 low; no RC transmission
+2026-09-10 09:42:24,603 WARNING MainThread Rejected marker box (0.3471754193305969, 0.004700225777924061, 0.9863433241844177, 1.0014251470565796): expected fully visible normalized xyxy
+2026-09-10 09:42:24,795 WARNING MainThread Rejected marker box (0.25060024857521057, 0.006880274508148432, 0.9552468061447144, 1.0080890655517578): expected fully visible normalized xyxy
+2026-09-10 09:42:26,694 WARNING MainThread Rejected marker box (0.0219863448292017, 0.016711635515093803, 0.9893965721130371, 1.002598524093628): expected fully visible normalized xyxy
+2026-09-10 09:42:27,071 WARNING MainThread Rejected marker box (0.011725539341568947, 0.013238202780485153, 0.9908597469329834, 1.0003892183303833): expected fully visible normalized xyxy
+2026-09-10 09:42:29,147 WARNING MainThread Rejected marker box (0.24767479300498962, 0.02006438560783863, 0.9989410638809204, 1.0016876459121704): expected fully visible normalized xyxy
+2026-09-10 09:42:29,337 WARNING MainThread Rejected marker box (0.2393561750650406, 0.019092485308647156, 1.0000519752502441, 1.003690242767334): expected fully visible normalized xyxy
+2026-09-10 09:42:29,523 WARNING MainThread Rejected marker box (0.2476547658443451, 0.018606536090373993, 1.0062700510025024, 1.0046916007995605): expected fully visible normalized xyxy
+2026-09-10 09:42:29,716 WARNING MainThread Rejected marker box (0.25180405378341675, 0.021761175245046616, 1.0093791484832764, 1.0017945766448975): expected fully visible normalized xyxy
+2026-09-10 09:42:30,277 WARNING MainThread Rejected marker box (0.23462557792663574, 0.023338494822382927, 0.9984756708145142, 1.0003461837768555): expected fully visible normalized xyxy
+2026-09-10 09:42:30,473 WARNING MainThread Rejected marker box (0.11731278896331787, 0.020729541778564453, 0.9930239915847778, 1.0030195713043213): expected fully visible normalized xyxy
+2026-09-10 09:42:30,663 WARNING MainThread Rejected marker box (0.07111430168151855, 0.022822678089141846, 0.9959608316421509, 1.0009586811065674): expected fully visible normalized xyxy
+2026-09-10 09:42:32,105 INFO marker-guidance state=STANDBY -> STOPPED reason=no further RC transmissions
+2026-09-10 09:42:32,106 WARNING marker-guidance Stopped. No neutral/throttle/disarm packet was sent; receiver takeover/failsafe remains the flight controller's responsibility.
+2026-09-10 09:55:35,488 WARNING marker-guidance Starting dry_run=True; target class=0; no automatic arming. Firmware must own takeover/failsafe.
+2026-09-10 09:55:35,545 INFO marker-guidance Connected variant='BTFL' firmware=(25, 12, 2, 9, 50, 48, 50, 53, 46, 49, 50, 46, 50) api=(0, 1, 47)
+2026-09-10 09:55:35,547 INFO marker-guidance state=None -> WAIT_AUX_LOW reason=startup/reconnection interlock
+2026-09-10 09:55:35,562 INFO marker-guidance state=WAIT_AUX_LOW -> STANDBY reason=physical AUX1 low; no RC transmission
+2026-09-10 09:56:01,719 INFO marker-guidance state=STANDBY -> ACQUIRING reason=no confirmed marker
+2026-09-10 09:56:02,726 INFO marker-guidance state=ACQUIRING -> FAULT reason=no confirmed marker
+2026-09-10 09:56:27,878 INFO marker-guidance state=FAULT -> STANDBY reason=physical AUX1 low; no RC transmission
+2026-09-10 09:57:04,758 INFO marker-guidance state=STANDBY -> ACQUIRING reason=no confirmed marker
+2026-09-10 09:57:05,766 INFO marker-guidance state=ACQUIRING -> FAULT reason=no confirmed marker
+2026-09-10 09:57:17,174 INFO marker-guidance state=FAULT -> STANDBY reason=physical AUX1 low; no RC transmission
+2026-09-10 09:57:31,223 INFO marker-guidance state=STANDBY -> STOPPED reason=no further RC transmissions
+2026-09-10 09:57:31,223 WARNING marker-guidance Stopped. No neutral/throttle/disarm packet was sent; receiver takeover/failsafe remains the flight controller's responsibility.
+2026-09-10 10:03:46,395 WARNING marker-guidance Starting dry_run=True; target class=0; no automatic arming. Firmware must own takeover/failsafe.
+2026-09-10 10:03:46,453 INFO marker-guidance Connected variant='BTFL' firmware=(25, 12, 2, 9, 50, 48, 50, 53, 46, 49, 50, 46, 50) api=(0, 1, 47)
+2026-09-10 10:03:46,455 INFO marker-guidance state=None -> WAIT_AUX_LOW reason=startup/reconnection interlock
+2026-09-10 10:03:46,483 INFO marker-guidance state=WAIT_AUX_LOW -> STANDBY reason=physical AUX1 low; no RC transmission
+2026-09-10 10:04:17,427 INFO marker-guidance Locked marker track_id=2 score=0.503
+2026-09-10 10:04:17,428 INFO marker-guidance state=STANDBY -> DRY_RUN reason=fresh locked marker and AUX1 enabled
+2026-09-10 10:04:17,429 INFO marker-guidance state=DRY_RUN target=2 age_ms=200.8 AUX1=2000 ex=0.000 ey=0.000 approach=0.000 roll=1000 pitch=1000 yaw=1000 throttle=1000
+2026-09-10 10:04:17,955 INFO marker-guidance state=DRY_RUN target=2 age_ms=167.4 AUX1=2000 ex=0.157 ey=0.000 approach=0.000 roll=1110 pitch=1110 yaw=1110 throttle=1110
+2026-09-10 10:04:18,467 INFO marker-guidance state=DRY_RUN target=2 age_ms=112.5 AUX1=2000 ex=0.075 ey=0.000 approach=0.000 roll=1317 pitch=1317 yaw=1317 throttle=1317
+2026-09-10 10:04:18,995 INFO marker-guidance state=DRY_RUN target=2 age_ms=72.1 AUX1=2000 ex=0.000 ey=0.000 approach=0.000 roll=1500 pitch=1500 yaw=1500 throttle=1350
+2026-09-10 10:04:19,508 INFO marker-guidance state=DRY_RUN target=2 age_ms=206.8 AUX1=2000 ex=-0.051 ey=0.000 approach=0.000 roll=1499 pitch=1500 yaw=1496 throttle=1350
+2026-09-10 10:04:20,035 INFO marker-guidance state=DRY_RUN target=2 age_ms=133.2 AUX1=2000 ex=0.034 ey=0.000 approach=0.000 roll=1501 pitch=1500 yaw=1502 throttle=1350
+2026-09-10 10:04:20,563 INFO marker-guidance state=DRY_RUN target=2 age_ms=86.9 AUX1=2000 ex=0.531 ey=0.000 approach=0.000 roll=1513 pitch=1500 yaw=1537 throttle=1350
+2026-09-10 10:04:21,075 INFO marker-guidance state=DRY_RUN target=2 age_ms=222.6 AUX1=2000 ex=0.715 ey=0.000 approach=0.000 roll=1518 pitch=1500 yaw=1550 throttle=1350
+2026-09-10 10:04:21,587 INFO marker-guidance state=DRY_RUN target=2 age_ms=172.7 AUX1=2000 ex=0.813 ey=0.000 approach=0.000 roll=1520 pitch=1500 yaw=1557 throttle=1350
+2026-09-10 10:04:22,115 INFO marker-guidance state=DRY_RUN target=2 age_ms=130.7 AUX1=2000 ex=0.819 ey=0.000 approach=0.000 roll=1520 pitch=1500 yaw=1557 throttle=1350
+2026-09-10 10:04:22,627 INFO marker-guidance state=DRY_RUN target=2 age_ms=75.3 AUX1=2000 ex=0.834 ey=0.000 approach=0.000 roll=1521 pitch=1500 yaw=1558 throttle=1350
+2026-09-10 10:04:23,155 INFO marker-guidance state=DRY_RUN target=2 age_ms=227.6 AUX1=2000 ex=0.713 ey=0.000 approach=0.000 roll=1518 pitch=1500 yaw=1550 throttle=1350
+2026-09-10 10:04:23,667 INFO marker-guidance state=DRY_RUN target=2 age_ms=172.2 AUX1=2000 ex=0.348 ey=0.000 approach=0.000 roll=1509 pitch=1500 yaw=1524 throttle=1350
+2026-09-10 10:04:24,195 INFO marker-guidance state=DRY_RUN target=2 age_ms=134.7 AUX1=2000 ex=0.078 ey=0.000 approach=0.000 roll=1502 pitch=1500 yaw=1505 throttle=1350
+2026-09-10 10:04:24,707 INFO marker-guidance state=DRY_RUN target=2 age_ms=72.1 AUX1=2000 ex=-0.124 ey=0.000 approach=0.000 roll=1497 pitch=1500 yaw=1491 throttle=1350
+2026-09-10 10:04:25,235 INFO marker-guidance state=DRY_RUN target=2 age_ms=215.4 AUX1=2000 ex=-0.461 ey=0.000 approach=0.000 roll=1488 pitch=1500 yaw=1468 throttle=1350
+2026-09-10 10:04:25,475 INFO marker-guidance state=DRY_RUN -> FAULT reason=locked marker missing or insufficient confidence
+2026-09-10 10:04:35,557 INFO marker-guidance state=FAULT -> STANDBY reason=physical AUX1 low; no RC transmission
+2026-09-10 10:04:36,228 INFO marker-guidance Locked marker track_id=5 score=0.503
+2026-09-10 10:04:36,229 INFO marker-guidance state=STANDBY -> DRY_RUN reason=fresh locked marker and AUX1 enabled
+2026-09-10 10:04:36,230 INFO marker-guidance state=DRY_RUN target=5 age_ms=70.2 AUX1=2000 ex=0.000 ey=0.000 approach=0.000 roll=1000 pitch=1000 yaw=1000 throttle=1000
+2026-09-10 10:04:36,308 INFO marker-guidance state=DRY_RUN -> STANDBY reason=physical AUX1 low; no RC transmission
+2026-09-10 10:04:40,115 INFO marker-guidance Locked marker track_id=5 score=0.503
+2026-09-10 10:04:40,116 INFO marker-guidance state=STANDBY -> DRY_RUN reason=fresh locked marker and AUX1 enabled
+2026-09-10 10:04:40,117 INFO marker-guidance state=DRY_RUN target=5 age_ms=184.4 AUX1=2000 ex=0.000 ey=0.000 approach=0.000 roll=1000 pitch=1000 yaw=1000 throttle=1000
+2026-09-10 10:04:40,627 INFO marker-guidance state=DRY_RUN target=5 age_ms=130.7 AUX1=2000 ex=0.000 ey=0.000 approach=0.000 roll=1109 pitch=1109 yaw=1109 throttle=1109
+2026-09-10 10:04:41,155 INFO marker-guidance state=DRY_RUN target=5 age_ms=91.9 AUX1=2000 ex=0.026 ey=0.000 approach=0.000 roll=1317 pitch=1317 yaw=1317 throttle=1317
+2026-09-10 10:04:41,667 INFO marker-guidance state=DRY_RUN target=5 age_ms=224.0 AUX1=2000 ex=0.029 ey=0.000 approach=0.000 roll=1501 pitch=1500 yaw=1502 throttle=1350
+2026-09-10 10:04:42,195 INFO marker-guidance state=DRY_RUN target=5 age_ms=187.3 AUX1=2000 ex=0.030 ey=0.000 approach=0.000 roll=1501 pitch=1500 yaw=1502 throttle=1350
+2026-09-10 10:04:42,707 INFO marker-guidance state=DRY_RUN target=5 age_ms=134.4 AUX1=2000 ex=0.039 ey=0.000 approach=0.000 roll=1501 pitch=1500 yaw=1503 throttle=1350
+2026-09-10 10:04:43,236 INFO marker-guidance state=DRY_RUN target=5 age_ms=101.3 AUX1=2000 ex=0.040 ey=0.000 approach=0.000 roll=1501 pitch=1500 yaw=1503 throttle=1350
+2026-09-10 10:04:43,747 INFO marker-guidance state=DRY_RUN target=5 age_ms=231.2 AUX1=2000 ex=0.163 ey=0.000 approach=0.000 roll=1504 pitch=1500 yaw=1511 throttle=1350
+2026-09-10 10:04:44,275 INFO marker-guidance state=DRY_RUN target=5 age_ms=193.6 AUX1=2000 ex=0.188 ey=0.000 approach=0.000 roll=1505 pitch=1500 yaw=1513 throttle=1350
+2026-09-10 10:04:44,787 INFO marker-guidance state=DRY_RUN target=5 age_ms=129.6 AUX1=2000 ex=0.232 ey=0.000 approach=0.000 roll=1506 pitch=1500 yaw=1516 throttle=1350
+2026-09-10 10:04:45,315 INFO marker-guidance state=DRY_RUN target=5 age_ms=91.5 AUX1=2000 ex=0.234 ey=0.000 approach=0.000 roll=1506 pitch=1500 yaw=1516 throttle=1350
+2026-09-10 10:04:45,827 INFO marker-guidance state=DRY_RUN target=5 age_ms=225.7 AUX1=2000 ex=0.231 ey=0.000 approach=0.000 roll=1506 pitch=1500 yaw=1516 throttle=1350
+2026-09-10 10:04:46,338 INFO marker-guidance state=DRY_RUN target=5 age_ms=161.2 AUX1=2000 ex=0.164 ey=0.000 approach=0.000 roll=1504 pitch=1500 yaw=1512 throttle=1350
+2026-09-10 10:04:46,867 INFO marker-guidance state=DRY_RUN target=5 age_ms=111.4 AUX1=2000 ex=0.174 ey=0.000 approach=0.000 roll=1504 pitch=1500 yaw=1512 throttle=1350
+2026-09-10 10:04:47,395 INFO marker-guidance state=DRY_RUN target=5 age_ms=253.7 AUX1=2000 ex=0.094 ey=0.000 approach=0.000 roll=1502 pitch=1500 yaw=1507 throttle=1350
+2026-09-10 10:04:47,924 INFO marker-guidance state=DRY_RUN target=5 age_ms=213.3 AUX1=2000 ex=0.038 ey=0.000 approach=0.000 roll=1501 pitch=1500 yaw=1503 throttle=1350
+2026-09-10 10:04:48,438 INFO marker-guidance state=DRY_RUN target=5 age_ms=160.1 AUX1=2000 ex=0.050 ey=0.000 approach=0.000 roll=1501 pitch=1500 yaw=1503 throttle=1350
+2026-09-10 10:04:48,947 INFO marker-guidance state=DRY_RUN target=5 age_ms=97.0 AUX1=2000 ex=0.145 ey=0.000 approach=0.000 roll=1504 pitch=1500 yaw=1510 throttle=1350
+2026-09-10 10:04:49,476 INFO marker-guidance state=DRY_RUN target=5 age_ms=60.5 AUX1=2000 ex=0.186 ey=0.000 approach=0.000 roll=1505 pitch=1500 yaw=1513 throttle=1350
+2026-09-10 10:04:49,987 INFO marker-guidance state=DRY_RUN target=5 age_ms=191.0 AUX1=2000 ex=0.176 ey=0.000 approach=0.000 roll=1504 pitch=1500 yaw=1512 throttle=1350
+2026-09-10 10:04:50,515 INFO marker-guidance state=DRY_RUN target=5 age_ms=145.7 AUX1=2000 ex=0.186 ey=0.000 approach=0.000 roll=1505 pitch=1500 yaw=1513 throttle=1350
+2026-09-10 10:04:51,043 INFO marker-guidance state=DRY_RUN target=5 age_ms=99.9 AUX1=2000 ex=0.210 ey=0.000 approach=0.000 roll=1505 pitch=1500 yaw=1515 throttle=1350
+2026-09-10 10:04:51,554 INFO marker-guidance state=DRY_RUN target=5 age_ms=233.9 AUX1=2000 ex=0.206 ey=0.000 approach=0.000 roll=1505 pitch=1500 yaw=1514 throttle=1350
+2026-09-10 10:04:52,083 INFO marker-guidance state=DRY_RUN target=5 age_ms=191.9 AUX1=2000 ex=0.222 ey=0.000 approach=0.000 roll=1506 pitch=1500 yaw=1516 throttle=1350
+2026-09-10 10:04:52,594 INFO marker-guidance state=DRY_RUN target=5 age_ms=134.5 AUX1=2000 ex=0.165 ey=0.000 approach=0.000 roll=1504 pitch=1500 yaw=1512 throttle=1350
+2026-09-10 10:04:53,123 INFO marker-guidance state=DRY_RUN -> FAULT reason=locked marker missing or insufficient confidence
+2026-09-10 10:04:54,835 INFO marker-guidance state=FAULT -> STOPPED reason=no further RC transmissions
+2026-09-10 10:04:54,835 WARNING marker-guidance Stopped. No neutral/throttle/disarm packet was sent; receiver takeover/failsafe remains the flight controller's responsibility.
+2026-09-10 10:08:23,839 WARNING marker-guidance Starting dry_run=True; target class=0; no automatic arming. Firmware must own takeover/failsafe.
+2026-09-10 10:08:23,888 INFO marker-guidance Connected variant='BTFL' firmware=(25, 12, 2, 9, 50, 48, 50, 53, 46, 49, 50, 46, 50) api=(0, 1, 47)
+2026-09-10 10:08:23,890 INFO marker-guidance state=None -> WAIT_AUX_LOW reason=startup/reconnection interlock
+2026-09-10 10:08:34,496 INFO marker-guidance state=WAIT_AUX_LOW -> STANDBY reason=physical AUX1 low; no RC transmission
+2026-09-10 10:08:38,144 INFO marker-guidance Locked marker track_id=1 score=0.503
+2026-09-10 10:08:38,145 INFO marker-guidance state=STANDBY -> DRY_RUN reason=fresh locked marker and AUX1 enabled
+2026-09-10 10:08:38,146 INFO marker-guidance state=DRY_RUN target=1 age_ms=194.8 AUX1=2000 ex=0.503 ey=0.000 approach=0.000 roll=1000 pitch=1000 yaw=1000 throttle=1000
+2026-09-10 10:08:38,656 INFO marker-guidance state=DRY_RUN target=1 age_ms=148.7 AUX1=2000 ex=0.469 ey=0.000 approach=0.000 roll=1333 pitch=1333 yaw=1333 throttle=1333
+2026-09-10 10:08:39,184 INFO marker-guidance state=DRY_RUN target=1 age_ms=119.7 AUX1=2000 ex=0.392 ey=0.000 approach=0.000 roll=1510 pitch=1500 yaw=1527 throttle=1350
+2026-09-10 10:08:39,712 INFO marker-guidance state=DRY_RUN target=1 age_ms=85.9 AUX1=2000 ex=0.449 ey=0.000 approach=0.000 roll=1511 pitch=1500 yaw=1531 throttle=1350
+2026-09-10 10:08:40,224 INFO marker-guidance state=DRY_RUN target=1 age_ms=222.6 AUX1=2000 ex=0.655 ey=0.000 approach=0.000 roll=1516 pitch=1500 yaw=1546 throttle=1350
+2026-09-10 10:08:40,271 INFO marker-guidance state=DRY_RUN -> FAULT reason=locked marker missing or insufficient confidence
+2026-09-10 10:08:56,223 INFO marker-guidance state=FAULT -> STANDBY reason=physical AUX1 low; no RC transmission
+2026-09-10 10:08:57,551 INFO marker-guidance no eligible marker: n_obs=0 scores=[] ages=[] min_conf=0.35 min_age=1
+2026-09-10 10:08:57,552 INFO marker-guidance state=STANDBY -> ACQUIRING reason=no confirmed marker
+2026-09-10 10:08:58,063 INFO marker-guidance no eligible marker: n_obs=0 scores=[] ages=[] min_conf=0.35 min_age=1
+2026-09-10 10:08:58,594 INFO marker-guidance no eligible marker: n_obs=0 scores=[] ages=[] min_conf=0.35 min_age=1
+2026-09-10 10:08:59,103 INFO marker-guidance no eligible marker: n_obs=0 scores=[] ages=[] min_conf=0.35 min_age=1
+2026-09-10 10:08:59,425 INFO marker-guidance Locked marker track_id=2 score=0.458
+2026-09-10 10:08:59,426 INFO marker-guidance state=ACQUIRING -> DRY_RUN reason=fresh locked marker and AUX1 enabled
+2026-09-10 10:08:59,427 INFO marker-guidance state=DRY_RUN target=2 age_ms=63.1 AUX1=2000 ex=-0.285 ey=0.000 approach=0.000 roll=1000 pitch=1000 yaw=1000 throttle=1000
+2026-09-10 10:08:59,938 INFO marker-guidance state=DRY_RUN target=2 age_ms=201.8 AUX1=2000 ex=-0.147 ey=0.000 approach=0.000 roll=1333 pitch=1333 yaw=1333 throttle=1333
+2026-09-10 10:09:00,463 INFO marker-guidance state=DRY_RUN target=2 age_ms=166.6 AUX1=2000 ex=-0.005 ey=0.000 approach=0.000 roll=1500 pitch=1500 yaw=1500 throttle=1350
+2026-09-10 10:09:01,010 INFO marker-guidance state=DRY_RUN target=2 age_ms=154.1 AUX1=2000 ex=0.206 ey=0.000 approach=0.000 roll=1505 pitch=1500 yaw=1514 throttle=1350
+2026-09-10 10:09:01,535 INFO marker-guidance state=DRY_RUN target=2 age_ms=122.3 AUX1=2000 ex=0.256 ey=0.000 approach=0.000 roll=1506 pitch=1500 yaw=1518 throttle=1350
+2026-09-10 10:09:02,064 INFO marker-guidance state=DRY_RUN target=2 age_ms=100.6 AUX1=2000 ex=0.047 ey=0.000 approach=0.000 roll=1501 pitch=1500 yaw=1503 throttle=1350
+2026-09-10 10:09:02,591 INFO marker-guidance state=DRY_RUN target=2 age_ms=66.3 AUX1=2000 ex=0.035 ey=0.000 approach=0.000 roll=1501 pitch=1500 yaw=1502 throttle=1350
+2026-09-10 10:09:03,120 INFO marker-guidance state=DRY_RUN target=2 age_ms=225.2 AUX1=2000 ex=0.334 ey=0.000 approach=0.000 roll=1508 pitch=1500 yaw=1523 throttle=1350
+2026-09-10 10:09:03,552 INFO marker-guidance state=DRY_RUN -> FAULT reason=locked marker missing or insufficient confidence
+2026-09-10 10:09:10,303 INFO marker-guidance state=FAULT -> STANDBY reason=physical AUX1 low; no RC transmission
+2026-09-10 10:09:21,888 INFO marker-guidance state=STANDBY -> STOPPED reason=no further RC transmissions
+2026-09-10 10:09:21,888 WARNING marker-guidance Stopped. No neutral/throttle/disarm packet was sent; receiver takeover/failsafe remains the flight controller's responsibility.
+2026-09-10 10:15:36,736 WARNING marker-guidance Starting dry_run=True; target class=0; no automatic arming. Firmware must own takeover/failsafe.
+2026-09-10 10:15:36,815 INFO marker-guidance Connected variant='BTFL' firmware=(25, 12, 2, 9, 50, 48, 50, 53, 46, 49, 50, 46, 50) api=(0, 1, 47)
+2026-09-10 10:15:36,816 INFO marker-guidance state=None -> WAIT_AUX_LOW reason=startup/reconnection interlock
+2026-09-10 10:15:36,830 INFO marker-guidance state=WAIT_AUX_LOW -> STANDBY reason=physical AUX1 low; no RC transmission
+2026-09-10 10:16:20,959 INFO marker-guidance Locked marker track_id=3 score=0.503
+2026-09-10 10:16:20,961 INFO marker-guidance state=STANDBY -> DRY_RUN reason=fresh locked marker and AUX1 enabled
+2026-09-10 10:16:20,962 INFO marker-guidance state=DRY_RUN target=3 age_ms=143.6 AUX1=2000 ex=0.000 ey=0.126 approach=0.000 roll=1000 pitch=1000 yaw=1000 throttle=1000
+2026-09-10 10:16:21,471 INFO marker-guidance state=DRY_RUN target=3 age_ms=91.8 AUX1=2000 ex=0.000 ey=0.139 approach=0.000 roll=1333 pitch=1333 yaw=1333 throttle=1333
+2026-09-10 10:16:21,999 INFO marker-guidance state=DRY_RUN target=3 age_ms=242.7 AUX1=2000 ex=0.000 ey=0.148 approach=0.000 roll=1500 pitch=1500 yaw=1500 throttle=1346
+2026-09-10 10:16:22,511 INFO marker-guidance state=DRY_RUN target=3 age_ms=138.4 AUX1=2000 ex=0.000 ey=0.182 approach=0.000 roll=1500 pitch=1500 yaw=1500 throttle=1345
+2026-09-10 10:16:23,023 INFO marker-guidance state=DRY_RUN target=3 age_ms=77.4 AUX1=2000 ex=-0.044 ey=0.205 approach=0.000 roll=1499 pitch=1500 yaw=1497 throttle=1344
+2026-09-10 10:16:23,233 INFO marker-guidance state=DRY_RUN -> FAULT reason=locked marker missing or insufficient confidence
+2026-09-10 10:16:38,224 INFO marker-guidance state=FAULT -> STANDBY reason=physical AUX1 low; no RC transmission
+2026-09-10 10:16:42,751 INFO marker-guidance Locked marker track_id=10 score=0.503
+2026-09-10 10:16:42,752 INFO marker-guidance state=STANDBY -> DRY_RUN reason=fresh locked marker and AUX1 enabled
+2026-09-10 10:16:42,752 INFO marker-guidance state=DRY_RUN target=10 age_ms=86.4 AUX1=2000 ex=-0.621 ey=0.250 approach=0.000 roll=1000 pitch=1000 yaw=1000 throttle=1000
+2026-09-10 10:16:43,263 INFO marker-guidance state=DRY_RUN target=10 age_ms=224.8 AUX1=2000 ex=-0.500 ey=0.242 approach=0.000 roll=1333 pitch=1333 yaw=1333 throttle=1333
+2026-09-10 10:16:43,681 INFO marker-guidance state=DRY_RUN -> FAULT reason=locked marker missing or insufficient confidence
+2026-09-10 10:17:09,391 INFO marker-guidance state=FAULT -> STANDBY reason=physical AUX1 low; no RC transmission
+2026-09-10 10:17:17,359 INFO marker-guidance no eligible marker: n_obs=0 scores=[] ages=[] min_conf=0.35 min_age=1
+2026-09-10 10:17:17,360 INFO marker-guidance state=STANDBY -> ACQUIRING reason=no confirmed marker
+2026-09-10 10:17:17,871 INFO marker-guidance no eligible marker: n_obs=0 scores=[] ages=[] min_conf=0.35 min_age=1
+2026-09-10 10:17:18,383 INFO marker-guidance no eligible marker: n_obs=0 scores=[] ages=[] min_conf=0.35 min_age=1
+2026-09-10 10:17:18,911 INFO marker-guidance no eligible marker: n_obs=0 scores=[] ages=[] min_conf=0.35 min_age=1
+2026-09-10 10:17:19,439 INFO marker-guidance no eligible marker: n_obs=0 scores=[] ages=[] min_conf=0.35 min_age=1
+2026-09-10 10:17:19,631 INFO marker-guidance state=ACQUIRING -> STANDBY reason=physical AUX1 low; no RC transmission
+2026-09-10 10:17:20,159 INFO marker-guidance no eligible marker: n_obs=0 scores=[] ages=[] min_conf=0.35 min_age=1
+2026-09-10 10:17:20,160 INFO marker-guidance state=STANDBY -> ACQUIRING reason=no confirmed marker
+2026-09-10 10:17:20,671 INFO marker-guidance no eligible marker: n_obs=0 scores=[] ages=[] min_conf=0.35 min_age=1
+2026-09-10 10:17:21,199 INFO marker-guidance no eligible marker: n_obs=0 scores=[] ages=[] min_conf=0.35 min_age=1
+2026-09-10 10:17:21,711 INFO marker-guidance no eligible marker: n_obs=0 scores=[] ages=[] min_conf=0.35 min_age=1
+2026-09-10 10:17:22,239 INFO marker-guidance no eligible marker: n_obs=0 scores=[] ages=[] min_conf=0.35 min_age=1
+2026-09-10 10:17:22,751 INFO marker-guidance no eligible marker: n_obs=0 scores=[] ages=[] min_conf=0.35 min_age=1
+2026-09-10 10:17:23,263 INFO marker-guidance no eligible marker: n_obs=0 scores=[] ages=[] min_conf=0.35 min_age=1
+2026-09-10 10:17:23,791 INFO marker-guidance no eligible marker: n_obs=0 scores=[] ages=[] min_conf=0.35 min_age=1
+2026-09-10 10:17:24,319 INFO marker-guidance no eligible marker: n_obs=0 scores=[] ages=[] min_conf=0.35 min_age=1
+2026-09-10 10:17:24,831 INFO marker-guidance no eligible marker: n_obs=0 scores=[] ages=[] min_conf=0.35 min_age=1
+2026-09-10 10:17:25,199 INFO marker-guidance state=ACQUIRING -> FAULT reason=no confirmed marker
+2026-09-10 10:17:26,399 INFO marker-guidance state=FAULT -> STANDBY reason=physical AUX1 low; no RC transmission
+2026-09-10 10:17:53,718 INFO marker-guidance state=STANDBY -> STOPPED reason=no further RC transmissions
+2026-09-10 10:17:53,719 WARNING marker-guidance Stopped. No neutral/throttle/disarm packet was sent; receiver takeover/failsafe remains the flight controller's responsibility.
+2026-09-10 10:24:39,691 WARNING marker-guidance Starting dry_run=False; target class=0; no automatic arming. Firmware must own takeover/failsafe.
+2026-09-10 10:24:39,746 INFO marker-guidance Connected variant='BTFL' firmware=(25, 12, 2, 9, 50, 48, 50, 53, 46, 49, 50, 46, 50) api=(0, 1, 47)
+2026-09-10 10:24:39,748 INFO marker-guidance state=None -> WAIT_AUX_LOW reason=startup/reconnection interlock
+2026-09-10 10:24:39,764 INFO marker-guidance state=WAIT_AUX_LOW -> STANDBY reason=physical AUX1 low; no RC transmission
+2026-09-10 10:25:18,322 INFO marker-guidance Locked marker track_id=8 score=0.503
+2026-09-10 10:25:18,323 INFO marker-guidance state=STANDBY -> ACTIVE reason=fresh locked marker and AUX1 enabled
+2026-09-10 10:25:18,338 INFO marker-guidance state=ACTIVE target=8 age_ms=165.2 AUX1=2000 ex=-0.101 ey=0.138 approach=0.000 roll=1000 pitch=1000 yaw=1000 throttle=1000
+2026-09-10 10:25:18,866 INFO marker-guidance state=ACTIVE target=8 age_ms=119.1 AUX1=2000 ex=-0.105 ey=0.147 approach=0.000 roll=1000 pitch=1000 yaw=1000 throttle=1000
+2026-09-10 10:25:19,010 INFO marker-guidance state=ACTIVE -> FAULT reason=locked marker missing or insufficient confidence
+2026-09-10 10:25:48,100 INFO marker-guidance state=FAULT -> STANDBY reason=physical AUX1 low; no RC transmission
+2026-09-10 10:26:03,251 INFO marker-guidance no eligible marker: n_obs=0 scores=[] ages=[] min_conf=0.35 min_age=1
+2026-09-10 10:26:03,251 INFO marker-guidance state=STANDBY -> ACQUIRING reason=no confirmed marker
+2026-09-10 10:26:03,411 INFO marker-guidance state=ACQUIRING -> STANDBY reason=physical AUX1 low; no RC transmission
+2026-09-10 10:26:03,971 INFO marker-guidance no eligible marker: n_obs=0 scores=[] ages=[] min_conf=0.35 min_age=1
+2026-09-10 10:26:03,972 INFO marker-guidance state=STANDBY -> ACQUIRING reason=no confirmed marker
+2026-09-10 10:26:04,483 INFO marker-guidance no eligible marker: n_obs=0 scores=[] ages=[] min_conf=0.35 min_age=1
+2026-09-10 10:26:05,013 INFO marker-guidance no eligible marker: n_obs=0 scores=[] ages=[] min_conf=0.35 min_age=1
+2026-09-10 10:26:05,539 INFO marker-guidance no eligible marker: n_obs=0 scores=[] ages=[] min_conf=0.35 min_age=1
+2026-09-10 10:26:06,051 INFO marker-guidance no eligible marker: n_obs=0 scores=[] ages=[] min_conf=0.35 min_age=1
+2026-09-10 10:26:06,563 INFO marker-guidance no eligible marker: n_obs=0 scores=[] ages=[] min_conf=0.35 min_age=1
+2026-09-10 10:26:07,091 INFO marker-guidance no eligible marker: n_obs=0 scores=[] ages=[] min_conf=0.35 min_age=1
+2026-09-10 10:26:07,620 INFO marker-guidance no eligible marker: n_obs=0 scores=[] ages=[] min_conf=0.35 min_age=1
+2026-09-10 10:26:08,131 INFO marker-guidance no eligible marker: n_obs=0 scores=[] ages=[] min_conf=0.35 min_age=1
+2026-09-10 10:26:08,611 INFO marker-guidance state=ACQUIRING -> STANDBY reason=physical AUX1 low; no RC transmission
+2026-09-10 10:26:09,027 INFO marker-guidance no eligible marker: n_obs=0 scores=[] ages=[] min_conf=0.35 min_age=1
+2026-09-10 10:26:09,028 INFO marker-guidance state=STANDBY -> ACQUIRING reason=no confirmed marker
+2026-09-10 10:26:09,539 INFO marker-guidance no eligible marker: n_obs=0 scores=[] ages=[] min_conf=0.35 min_age=1
+2026-09-10 10:26:10,051 INFO marker-guidance no eligible marker: n_obs=0 scores=[] ages=[] min_conf=0.35 min_age=1
+2026-09-10 10:26:10,179 INFO marker-guidance state=ACQUIRING -> STANDBY reason=physical AUX1 low; no RC transmission
+2026-09-10 10:26:12,371 INFO marker-guidance Locked marker track_id=15 score=0.503
+2026-09-10 10:26:12,372 INFO marker-guidance state=STANDBY -> ACTIVE reason=fresh locked marker and AUX1 enabled
+2026-09-10 10:26:12,387 INFO marker-guidance state=ACTIVE target=15 age_ms=82.2 AUX1=2000 ex=0.548 ey=0.000 approach=0.000 roll=1005 pitch=1005 yaw=1005 throttle=1005
+2026-09-10 10:26:12,916 INFO marker-guidance state=ACTIVE target=15 age_ms=220.7 AUX1=2000 ex=0.630 ey=0.015 approach=0.000 roll=1067 pitch=1067 yaw=1067 throttle=1067
+2026-09-10 10:26:13,443 INFO marker-guidance state=ACTIVE target=15 age_ms=165.5 AUX1=2000 ex=0.718 ey=0.101 approach=0.000 roll=1130 pitch=1130 yaw=1130 throttle=1130
+2026-09-10 10:26:13,955 INFO marker-guidance state=ACTIVE target=15 age_ms=91.3 AUX1=2000 ex=0.683 ey=0.173 approach=0.000 roll=1193 pitch=1193 yaw=1193 throttle=1193
+2026-09-10 10:26:14,467 INFO marker-guidance state=ACTIVE target=15 age_ms=214.0 AUX1=2000 ex=0.639 ey=0.208 approach=0.000 roll=1255 pitch=1255 yaw=1255 throttle=1255
+2026-09-10 10:26:15,011 INFO marker-guidance state=ACTIVE target=15 age_ms=165.0 AUX1=2000 ex=0.557 ey=0.243 approach=0.000 roll=1319 pitch=1319 yaw=1319 throttle=1319
+2026-09-10 10:26:15,539 INFO marker-guidance state=ACTIVE target=15 age_ms=120.6 AUX1=2000 ex=0.540 ey=0.253 approach=0.000 roll=1383 pitch=1383 yaw=1383 throttle=1342
+2026-09-10 10:26:16,050 INFO marker-guidance state=ACTIVE target=15 age_ms=240.4 AUX1=2000 ex=0.567 ey=0.240 approach=0.000 roll=1445 pitch=1445 yaw=1445 throttle=1343
+2026-09-10 10:26:16,579 INFO marker-guidance state=ACTIVE target=15 age_ms=183.8 AUX1=2000 ex=0.632 ey=0.186 approach=0.000 roll=1508 pitch=1500 yaw=1508 throttle=1344
+2026-09-10 10:26:17,090 INFO marker-guidance state=ACTIVE target=15 age_ms=118.6 AUX1=2000 ex=0.644 ey=0.159 approach=0.000 roll=1516 pitch=1500 yaw=1545 throttle=1345
+2026-09-10 10:26:17,619 INFO marker-guidance state=ACTIVE target=15 age_ms=69.3 AUX1=2000 ex=0.649 ey=0.205 approach=0.000 roll=1516 pitch=1500 yaw=1545 throttle=1344
+2026-09-10 10:26:18,131 INFO marker-guidance state=ACTIVE target=15 age_ms=192.1 AUX1=2000 ex=0.681 ey=0.253 approach=0.000 roll=1517 pitch=1500 yaw=1548 throttle=1342
+2026-09-10 10:26:18,660 INFO marker-guidance state=ACTIVE target=15 age_ms=152.5 AUX1=2000 ex=0.730 ey=0.256 approach=0.000 roll=1518 pitch=1500 yaw=1551 throttle=1342
+2026-09-10 10:26:18,755 INFO marker-guidance state=ACTIVE -> FAULT reason=locked marker missing or insufficient confidence
+2026-09-10 10:26:34,195 INFO marker-guidance state=FAULT -> STANDBY reason=physical AUX1 low; no RC transmission
+2026-09-10 10:27:12,065 INFO marker-guidance state=STANDBY -> STOPPED reason=no further RC transmissions
+2026-09-10 10:27:12,065 WARNING marker-guidance Stopped. No neutral/throttle/disarm packet was sent; receiver takeover/failsafe remains the flight controller's responsibility.
+2026-09-10 10:34:31,855 WARNING marker-guidance Starting dry_run=False; target class=0; no automatic arming. Firmware must own takeover/failsafe.
+2026-09-10 10:34:31,913 INFO marker-guidance Connected variant='BTFL' firmware=(25, 12, 2, 9, 50, 48, 50, 53, 46, 49, 50, 46, 50) api=(0, 1, 47)
+2026-09-10 10:34:31,915 INFO marker-guidance state=None -> WAIT_AUX_LOW reason=startup/reconnection interlock
+2026-09-10 10:34:31,928 INFO marker-guidance state=WAIT_AUX_LOW -> STANDBY reason=physical AUX1 low; no RC transmission
+2026-09-10 10:35:01,202 INFO marker-guidance state=STANDBY -> LINK_FAULT reason=RC transmission stopped
+2026-09-10 10:35:01,203 ERROR marker-guidance Guidance/MSP failure; reconnect requires AUX1-low interlock
+Traceback (most recent call last):
+  File "/home/pi/autopilot_bee_ept/claude2.py", line 729, in _run
+    self._session(link)
+    ~~~~~~~~~~~~~^^^^^^
+  File "/home/pi/autopilot_bee_ept/claude2.py", line 640, in _session
+    receiver = link.read_rc()
+  File "/home/pi/autopilot_bee_ept/claude2.py", line 385, in read_rc
+    payload = self.request(MSP_RC)
+  File "/home/pi/autopilot_bee_ept/claude2.py", line 382, in request
+    raise TimeoutError(f"MSP command {command} response timeout")
+TimeoutError: MSP command 105 response timeout
+2026-09-10 10:35:02,386 INFO marker-guidance Connected variant='BTFL' firmware=(25, 12, 2, 9, 50, 48, 50, 53, 46, 49, 50, 46, 50) api=(0, 1, 47)
+2026-09-10 10:35:02,387 INFO marker-guidance state=LINK_FAULT -> WAIT_AUX_LOW reason=startup/reconnection interlock
+2026-09-10 10:35:02,402 INFO marker-guidance state=WAIT_AUX_LOW -> STANDBY reason=physical AUX1 low; no RC transmission
+2026-09-10 10:35:14,434 INFO marker-guidance Locked marker track_id=3 score=0.503
+2026-09-10 10:35:14,436 INFO marker-guidance state=STANDBY -> ACTIVE reason=fresh locked marker and AUX1 enabled
+2026-09-10 10:35:14,450 INFO marker-guidance state=ACTIVE target=3 age_ms=147.6 AUX1=2000 ex=0.000 ey=0.000 approach=0.000 roll=1500 pitch=1500 yaw=1500 throttle=1350
+2026-09-10 10:35:14,981 INFO marker-guidance state=ACTIVE target=3 age_ms=96.4 AUX1=2000 ex=0.000 ey=0.000 approach=0.000 roll=1500 pitch=1500 yaw=1500 throttle=1350
+2026-09-10 10:35:15,507 INFO marker-guidance state=ACTIVE target=3 age_ms=243.6 AUX1=2000 ex=-0.010 ey=0.000 approach=0.000 roll=1500 pitch=1500 yaw=1499 throttle=1350
+2026-09-10 10:35:16,034 INFO marker-guidance state=ACTIVE target=3 age_ms=192.9 AUX1=2000 ex=-0.100 ey=0.000 approach=0.000 roll=1497 pitch=1500 yaw=1493 throttle=1350
+2026-09-10 10:35:16,562 INFO marker-guidance state=ACTIVE target=3 age_ms=152.1 AUX1=2000 ex=-0.043 ey=0.000 approach=0.000 roll=1499 pitch=1500 yaw=1497 throttle=1350
+2026-09-10 10:35:17,075 INFO marker-guidance state=ACTIVE target=3 age_ms=92.9 AUX1=2000 ex=-0.010 ey=0.000 approach=0.000 roll=1500 pitch=1500 yaw=1499 throttle=1350
+2026-09-10 10:35:17,602 INFO marker-guidance state=ACTIVE target=3 age_ms=224.1 AUX1=2000 ex=0.044 ey=0.000 approach=0.000 roll=1501 pitch=1500 yaw=1503 throttle=1350
+2026-09-10 10:35:18,114 INFO marker-guidance state=ACTIVE target=3 age_ms=157.2 AUX1=2000 ex=0.301 ey=0.000 approach=0.000 roll=1508 pitch=1500 yaw=1521 throttle=1350
+2026-09-10 10:35:18,659 INFO marker-guidance state=ACTIVE target=3 age_ms=125.1 AUX1=2000 ex=0.433 ey=0.000 approach=0.000 roll=1511 pitch=1500 yaw=1530 throttle=1350
+2026-09-10 10:35:19,170 INFO marker-guidance state=ACTIVE target=3 age_ms=68.1 AUX1=2000 ex=0.357 ey=0.000 approach=0.000 roll=1509 pitch=1500 yaw=1525 throttle=1350
+2026-09-10 10:35:19,698 INFO marker-guidance state=ACTIVE target=3 age_ms=216.1 AUX1=2000 ex=0.066 ey=0.000 approach=0.000 roll=1502 pitch=1500 yaw=1505 throttle=1350
+2026-09-10 10:35:20,210 INFO marker-guidance state=ACTIVE target=3 age_ms=155.4 AUX1=2000 ex=-0.252 ey=0.000 approach=0.000 roll=1494 pitch=1500 yaw=1482 throttle=1350
+2026-09-10 10:35:20,498 INFO marker-guidance state=ACTIVE -> FAULT reason=locked marker missing or insufficient confidence
+2026-09-10 10:35:22,694 INFO marker-guidance state=FAULT -> STANDBY reason=physical AUX1 low; no RC transmission
+2026-09-10 10:36:52,067 INFO marker-guidance Locked marker track_id=3 score=0.503
+2026-09-10 10:36:52,068 INFO marker-guidance state=STANDBY -> ACTIVE reason=fresh locked marker and AUX1 enabled
+2026-09-10 10:36:52,083 INFO marker-guidance state=ACTIVE target=3 age_ms=167.1 AUX1=2000 ex=-0.015 ey=0.000 approach=0.000 roll=1500 pitch=1500 yaw=1499 throttle=1350
+2026-09-10 10:36:52,595 INFO marker-guidance state=ACTIVE target=3 age_ms=111.4 AUX1=2000 ex=-0.013 ey=0.000 approach=0.000 roll=1500 pitch=1500 yaw=1499 throttle=1350
+2026-09-10 10:36:53,124 INFO marker-guidance state=ACTIVE target=3 age_ms=73.7 AUX1=2000 ex=-0.005 ey=0.000 approach=0.000 roll=1500 pitch=1500 yaw=1500 throttle=1350
+2026-09-10 10:36:53,636 INFO marker-guidance state=ACTIVE target=3 age_ms=207.9 AUX1=2000 ex=-0.004 ey=0.000 approach=0.000 roll=1500 pitch=1500 yaw=1500 throttle=1350
+2026-09-10 10:36:54,163 INFO marker-guidance state=ACTIVE target=3 age_ms=155.7 AUX1=2000 ex=-0.026 ey=0.000 approach=0.000 roll=1499 pitch=1500 yaw=1498 throttle=1350
+2026-09-10 10:36:54,691 INFO marker-guidance state=ACTIVE target=3 age_ms=92.4 AUX1=2000 ex=-0.064 ey=0.000 approach=0.000 roll=1498 pitch=1500 yaw=1495 throttle=1350
+2026-09-10 10:36:55,205 INFO marker-guidance state=ACTIVE target=3 age_ms=243.2 AUX1=2000 ex=-0.061 ey=0.000 approach=0.000 roll=1498 pitch=1500 yaw=1496 throttle=1350
+2026-09-10 10:36:55,732 INFO marker-guidance state=ACTIVE target=3 age_ms=186.4 AUX1=2000 ex=-0.088 ey=0.000 approach=0.000 roll=1498 pitch=1500 yaw=1494 throttle=1350
+2026-09-10 10:36:56,244 INFO marker-guidance state=ACTIVE target=3 age_ms=128.5 AUX1=2000 ex=-0.080 ey=0.000 approach=0.000 roll=1498 pitch=1500 yaw=1494 throttle=1350
+2026-09-10 10:36:56,771 INFO marker-guidance state=ACTIVE target=3 age_ms=82.4 AUX1=2000 ex=-0.083 ey=0.000 approach=0.000 roll=1498 pitch=1500 yaw=1494 throttle=1350
+2026-09-10 10:36:57,299 INFO marker-guidance state=ACTIVE target=3 age_ms=222.8 AUX1=2000 ex=-0.084 ey=0.000 approach=0.000 roll=1498 pitch=1500 yaw=1494 throttle=1350
+2026-09-10 10:36:57,828 INFO marker-guidance state=ACTIVE target=3 age_ms=179.7 AUX1=2000 ex=-0.112 ey=0.000 approach=0.000 roll=1497 pitch=1500 yaw=1492 throttle=1350
+2026-09-10 10:36:58,356 INFO marker-guidance state=ACTIVE target=3 age_ms=129.8 AUX1=2000 ex=-0.032 ey=0.000 approach=0.000 roll=1499 pitch=1500 yaw=1498 throttle=1350
+2026-09-10 10:36:58,867 INFO marker-guidance state=ACTIVE target=3 age_ms=62.3 AUX1=2000 ex=0.075 ey=0.000 approach=0.000 roll=1502 pitch=1500 yaw=1505 throttle=1350
+2026-09-10 10:36:59,396 INFO marker-guidance state=ACTIVE target=3 age_ms=211.0 AUX1=2000 ex=0.235 ey=0.000 approach=0.000 roll=1506 pitch=1500 yaw=1516 throttle=1350
+2026-09-10 10:36:59,907 INFO marker-guidance state=ACTIVE target=3 age_ms=146.6 AUX1=2000 ex=0.425 ey=0.000 approach=0.000 roll=1511 pitch=1500 yaw=1530 throttle=1350
+2026-09-10 10:37:00,435 INFO marker-guidance state=ACTIVE target=3 age_ms=103.1 AUX1=2000 ex=0.539 ey=0.000 approach=0.000 roll=1513 pitch=1500 yaw=1538 throttle=1350
+2026-09-10 10:37:00,963 INFO marker-guidance state=ACTIVE target=3 age_ms=63.6 AUX1=2000 ex=0.637 ey=0.000 approach=0.000 roll=1516 pitch=1500 yaw=1545 throttle=1350
+2026-09-10 10:37:01,476 INFO marker-guidance state=ACTIVE target=3 age_ms=194.9 AUX1=2000 ex=0.668 ey=0.000 approach=0.000 roll=1517 pitch=1500 yaw=1547 throttle=1350
+2026-09-10 10:37:02,003 INFO marker-guidance state=ACTIVE target=3 age_ms=151.1 AUX1=2000 ex=0.687 ey=0.000 approach=0.000 roll=1517 pitch=1500 yaw=1548 throttle=1350
+2026-09-10 10:37:02,516 INFO marker-guidance state=ACTIVE target=3 age_ms=82.8 AUX1=2000 ex=0.694 ey=0.000 approach=0.000 roll=1517 pitch=1500 yaw=1549 throttle=1350
+2026-09-10 10:37:03,043 INFO marker-guidance state=ACTIVE target=3 age_ms=225.4 AUX1=2000 ex=0.696 ey=0.000 approach=0.000 roll=1517 pitch=1500 yaw=1549 throttle=1350
+2026-09-10 10:37:03,555 INFO marker-guidance state=ACTIVE target=3 age_ms=162.6 AUX1=2000 ex=0.709 ey=0.000 approach=0.000 roll=1518 pitch=1500 yaw=1550 throttle=1350
+2026-09-10 10:37:04,067 INFO marker-guidance state=ACTIVE target=3 age_ms=98.2 AUX1=2000 ex=0.701 ey=0.000 approach=0.000 roll=1518 pitch=1500 yaw=1549 throttle=1350
+2026-09-10 10:37:04,579 INFO marker-guidance state=ACTIVE target=3 age_ms=229.2 AUX1=2000 ex=0.672 ey=0.001 approach=0.000 roll=1517 pitch=1500 yaw=1547 throttle=1350
+2026-09-10 10:37:05,107 INFO marker-guidance state=ACTIVE target=3 age_ms=177.1 AUX1=2000 ex=0.471 ey=0.000 approach=0.000 roll=1512 pitch=1500 yaw=1533 throttle=1350
+2026-09-10 10:37:05,619 INFO marker-guidance state=ACTIVE target=3 age_ms=116.2 AUX1=2000 ex=0.177 ey=0.000 approach=0.000 roll=1504 pitch=1500 yaw=1512 throttle=1350
+2026-09-10 10:37:06,147 INFO marker-guidance state=ACTIVE target=3 age_ms=74.9 AUX1=2000 ex=0.000 ey=0.000 approach=0.000 roll=1500 pitch=1500 yaw=1500 throttle=1350
+2026-09-10 10:37:06,659 INFO marker-guidance state=ACTIVE target=3 age_ms=203.5 AUX1=2000 ex=-0.158 ey=0.000 approach=0.000 roll=1496 pitch=1500 yaw=1489 throttle=1350
+2026-09-10 10:37:07,203 INFO marker-guidance state=ACTIVE target=3 age_ms=174.0 AUX1=2000 ex=-0.478 ey=0.000 approach=0.000 roll=1488 pitch=1500 yaw=1467 throttle=1350
+2026-09-10 10:37:07,667 INFO marker-guidance state=ACTIVE -> FAULT reason=locked marker missing or insufficient confidence
+2026-09-10 10:37:40,261 INFO marker-guidance state=FAULT -> STANDBY reason=physical AUX1 low; no RC transmission
+2026-09-10 10:37:41,860 INFO marker-guidance Locked marker track_id=4 score=0.503
+2026-09-10 10:37:41,864 INFO marker-guidance state=STANDBY -> ACTIVE reason=fresh locked marker and AUX1 enabled
+2026-09-10 10:37:41,876 INFO marker-guidance state=ACTIVE target=4 age_ms=95.1 AUX1=2000 ex=0.539 ey=0.000 approach=0.000 roll=1505 pitch=1500 yaw=1505 throttle=1350
+2026-09-10 10:37:42,403 INFO marker-guidance state=ACTIVE target=4 age_ms=242.3 AUX1=2000 ex=0.545 ey=0.000 approach=0.000 roll=1514 pitch=1500 yaw=1538 throttle=1350
+2026-09-10 10:37:42,932 INFO marker-guidance state=ACTIVE target=4 age_ms=197.3 AUX1=2000 ex=0.554 ey=0.000 approach=0.000 roll=1514 pitch=1500 yaw=1539 throttle=1350
+2026-09-10 10:37:43,460 INFO marker-guidance state=ACTIVE target=4 age_ms=152.3 AUX1=2000 ex=0.573 ey=0.000 approach=0.000 roll=1514 pitch=1500 yaw=1540 throttle=1350
+2026-09-10 10:37:43,973 INFO marker-guidance state=ACTIVE target=4 age_ms=90.1 AUX1=2000 ex=0.366 ey=0.000 approach=0.000 roll=1509 pitch=1500 yaw=1529 throttle=1350
+2026-09-10 10:37:44,484 INFO marker-guidance state=ACTIVE target=4 age_ms=222.2 AUX1=2000 ex=0.162 ey=0.000 approach=0.000 roll=1504 pitch=1500 yaw=1511 throttle=1350
+2026-09-10 10:37:44,996 INFO marker-guidance state=ACTIVE target=4 age_ms=166.2 AUX1=2000 ex=-0.067 ey=0.000 approach=0.000 roll=1498 pitch=1500 yaw=1495 throttle=1350
+2026-09-10 10:37:45,459 INFO marker-guidance state=ACTIVE -> FAULT reason=locked marker missing or insufficient confidence
+2026-09-10 10:37:59,654 INFO marker-guidance state=FAULT -> STANDBY reason=physical AUX1 low; no RC transmission
+2026-09-10 10:38:12,488 INFO marker-guidance state=STANDBY -> STOPPED reason=no further RC transmissions
+2026-09-10 10:38:12,488 WARNING marker-guidance Stopped. No neutral/throttle/disarm packet was sent; receiver takeover/failsafe remains the flight controller's responsibility.
+2026-09-10 10:40:53,846 WARNING marker-guidance Starting dry_run=False; target class=0; no automatic arming. Firmware must own takeover/failsafe.
+2026-09-10 10:40:53,902 INFO marker-guidance Connected variant='BTFL' firmware=(25, 12, 2, 9, 50, 48, 50, 53, 46, 49, 50, 46, 50) api=(0, 1, 47)
+2026-09-10 10:40:53,904 INFO marker-guidance state=None -> WAIT_AUX_LOW reason=startup/reconnection interlock
+2026-09-10 10:40:53,920 INFO marker-guidance state=WAIT_AUX_LOW -> STANDBY reason=physical AUX1 low; no RC transmission
+2026-09-10 10:42:55,440 INFO marker-guidance Locked marker track_id=7 score=0.503
+2026-09-10 10:42:55,442 INFO marker-guidance state=STANDBY -> ACTIVE reason=fresh locked marker and AUX1 enabled
+2026-09-10 10:42:55,455 INFO marker-guidance state=ACTIVE target=7 age_ms=101.2 AUX1=2000 ex=0.000 ey=0.124 approach=0.000 roll=1500 pitch=1500 yaw=1500 throttle=1346
+2026-09-10 10:42:55,983 INFO marker-guidance state=ACTIVE target=7 age_ms=246.6 AUX1=2000 ex=0.000 ey=0.124 approach=0.000 roll=1500 pitch=1500 yaw=1500 throttle=1346
+2026-09-10 10:42:56,511 INFO marker-guidance state=ACTIVE target=7 age_ms=206.5 AUX1=2000 ex=0.000 ey=0.116 approach=0.000 roll=1500 pitch=1500 yaw=1500 throttle=1347
+2026-09-10 10:42:57,023 INFO marker-guidance state=ACTIVE target=7 age_ms=143.7 AUX1=2000 ex=0.000 ey=0.109 approach=0.000 roll=1500 pitch=1500 yaw=1500 throttle=1347
+2026-09-10 10:42:57,552 INFO marker-guidance state=ACTIVE target=7 age_ms=93.8 AUX1=2000 ex=0.002 ey=0.101 approach=0.000 roll=1500 pitch=1500 yaw=1500 throttle=1347
+2026-09-10 10:42:58,095 INFO marker-guidance state=ACTIVE target=7 age_ms=247.7 AUX1=2000 ex=0.000 ey=0.098 approach=0.000 roll=1500 pitch=1500 yaw=1500 throttle=1347
+2026-09-10 10:42:58,111 INFO marker-guidance state=ACTIVE -> FAULT reason=locked marker missing or insufficient confidence
+2026-09-10 10:43:16,191 INFO marker-guidance state=FAULT -> STANDBY reason=physical AUX1 low; no RC transmission
+2026-09-10 10:43:18,032 INFO marker-guidance no eligible marker: n_obs=0 scores=[] ages=[] min_conf=0.35 min_age=1
+2026-09-10 10:43:18,034 INFO marker-guidance state=STANDBY -> ACQUIRING reason=no confirmed marker
+2026-09-10 10:43:18,543 INFO marker-guidance no eligible marker: n_obs=0 scores=[] ages=[] min_conf=0.35 min_age=1
+2026-09-10 10:43:19,071 INFO marker-guidance no eligible marker: n_obs=0 scores=[] ages=[] min_conf=0.35 min_age=1
+2026-09-10 10:43:19,599 INFO marker-guidance no eligible marker: n_obs=0 scores=[] ages=[] min_conf=0.35 min_age=1
+2026-09-10 10:43:20,111 INFO marker-guidance no eligible marker: n_obs=0 scores=[] ages=[] min_conf=0.35 min_age=1
+2026-09-10 10:43:20,624 INFO marker-guidance no eligible marker: n_obs=0 scores=[] ages=[] min_conf=0.35 min_age=1
+2026-09-10 10:43:21,151 INFO marker-guidance no eligible marker: n_obs=0 scores=[] ages=[] min_conf=0.35 min_age=1
+2026-09-10 10:43:21,679 INFO marker-guidance no eligible marker: n_obs=0 scores=[] ages=[] min_conf=0.35 min_age=1
+2026-09-10 10:43:22,191 INFO marker-guidance no eligible marker: n_obs=0 scores=[] ages=[] min_conf=0.35 min_age=1
+2026-09-10 10:43:22,351 INFO marker-guidance Locked marker track_id=15 score=0.503
+2026-09-10 10:43:22,352 INFO marker-guidance state=ACQUIRING -> ACTIVE reason=fresh locked marker and AUX1 enabled
+2026-09-10 10:43:22,368 INFO marker-guidance state=ACTIVE target=15 age_ms=82.8 AUX1=2000 ex=0.839 ey=0.146 approach=0.000 roll=1505 pitch=1500 yaw=1505 throttle=1346
+2026-09-10 10:43:22,895 INFO marker-guidance state=ACTIVE target=15 age_ms=226.9 AUX1=2000 ex=0.806 ey=0.141 approach=0.000 roll=1520 pitch=1500 yaw=1556 throttle=1346
+2026-09-10 10:43:23,407 INFO marker-guidance state=ACTIVE target=15 age_ms=163.9 AUX1=2000 ex=0.675 ey=0.139 approach=0.000 roll=1517 pitch=1500 yaw=1547 throttle=1346
+2026-09-10 10:43:23,935 INFO marker-guidance state=ACTIVE target=15 age_ms=105.0 AUX1=2000 ex=0.577 ey=0.129 approach=0.000 roll=1514 pitch=1500 yaw=1540 throttle=1346
+2026-09-10 10:43:24,479 INFO marker-guidance state=ACTIVE target=15 age_ms=243.1 AUX1=2000 ex=0.525 ey=0.133 approach=0.000 roll=1513 pitch=1500 yaw=1537 throttle=1346
+2026-09-10 10:43:24,992 INFO marker-guidance state=ACTIVE target=15 age_ms=176.9 AUX1=2000 ex=0.474 ey=0.139 approach=0.000 roll=1512 pitch=1500 yaw=1533 throttle=1346
+2026-09-10 10:43:25,503 INFO marker-guidance state=ACTIVE target=15 age_ms=107.0 AUX1=2000 ex=0.432 ey=0.130 approach=0.000 roll=1511 pitch=1500 yaw=1530 throttle=1346
+2026-09-10 10:43:26,048 INFO marker-guidance state=ACTIVE target=15 age_ms=71.1 AUX1=2000 ex=0.371 ey=0.137 approach=0.000 roll=1509 pitch=1500 yaw=1526 throttle=1346
+2026-09-10 10:43:26,559 INFO marker-guidance state=ACTIVE target=15 age_ms=197.2 AUX1=2000 ex=0.344 ey=0.139 approach=0.000 roll=1509 pitch=1500 yaw=1524 throttle=1346
+2026-09-10 10:43:27,024 INFO marker-guidance state=ACTIVE -> FAULT reason=locked marker missing or insufficient confidence
+2026-09-10 10:43:59,503 INFO marker-guidance state=FAULT -> STANDBY reason=physical AUX1 low; no RC transmission
+2026-09-10 10:44:01,344 INFO marker-guidance no eligible marker: n_obs=0 scores=[] ages=[] min_conf=0.35 min_age=1
+2026-09-10 10:44:01,345 INFO marker-guidance state=STANDBY -> ACQUIRING reason=no confirmed marker
+2026-09-10 10:44:01,855 INFO marker-guidance no eligible marker: n_obs=0 scores=[] ages=[] min_conf=0.35 min_age=1
+2026-09-10 10:44:02,384 INFO marker-guidance no eligible marker: n_obs=0 scores=[] ages=[] min_conf=0.35 min_age=1
+2026-09-10 10:44:02,914 INFO marker-guidance no eligible marker: n_obs=0 scores=[] ages=[] min_conf=0.35 min_age=1
+2026-09-10 10:44:03,423 INFO marker-guidance Locked marker track_id=23 score=0.503
+2026-09-10 10:44:03,424 INFO marker-guidance state=ACQUIRING -> ACTIVE reason=fresh locked marker and AUX1 enabled
+2026-09-10 10:44:03,439 INFO marker-guidance state=ACTIVE target=23 age_ms=63.8 AUX1=2000 ex=0.808 ey=0.152 approach=0.000 roll=1505 pitch=1500 yaw=1505 throttle=1345
+2026-09-10 10:44:03,951 INFO marker-guidance state=ACTIVE target=23 age_ms=195.2 AUX1=2000 ex=0.805 ey=0.148 approach=0.000 roll=1520 pitch=1500 yaw=1556 throttle=1346
+2026-09-10 10:44:04,480 INFO marker-guidance state=ACTIVE target=23 age_ms=139.6 AUX1=2000 ex=0.741 ey=0.161 approach=0.000 roll=1519 pitch=1500 yaw=1552 throttle=1345
+2026-09-10 10:44:04,991 INFO marker-guidance state=ACTIVE target=23 age_ms=73.1 AUX1=2000 ex=0.626 ey=0.161 approach=0.000 roll=1516 pitch=1500 yaw=1544 throttle=1345
+2026-09-10 10:44:05,519 INFO marker-guidance state=ACTIVE target=23 age_ms=214.9 AUX1=2000 ex=0.577 ey=0.161 approach=0.000 roll=1514 pitch=1500 yaw=1540 throttle=1345
+2026-09-10 10:44:06,047 INFO marker-guidance state=ACTIVE target=23 age_ms=166.1 AUX1=2000 ex=0.507 ey=0.150 approach=0.000 roll=1513 pitch=1500 yaw=1536 throttle=1346
+2026-09-10 10:44:06,575 INFO marker-guidance state=ACTIVE target=23 age_ms=117.4 AUX1=2000 ex=0.462 ey=0.157 approach=0.000 roll=1512 pitch=1500 yaw=1532 throttle=1345
+2026-09-10 10:44:07,089 INFO marker-guidance state=ACTIVE target=23 age_ms=244.5 AUX1=2000 ex=0.458 ey=0.159 approach=0.000 roll=1511 pitch=1500 yaw=1532 throttle=1345
+2026-09-10 10:44:07,600 INFO marker-guidance state=ACTIVE target=23 age_ms=183.4 AUX1=2000 ex=0.327 ey=0.160 approach=0.000 roll=1508 pitch=1500 yaw=1523 throttle=1345
+2026-09-10 10:44:08,128 INFO marker-guidance state=ACTIVE target=23 age_ms=139.4 AUX1=2000 ex=0.098 ey=0.158 approach=0.000 roll=1502 pitch=1500 yaw=1507 throttle=1345
+2026-09-10 10:44:08,639 INFO marker-guidance state=ACTIVE target=23 age_ms=73.6 AUX1=2000 ex=-0.150 ey=0.151 approach=0.000 roll=1496 pitch=1500 yaw=1491 throttle=1345
+2026-09-10 10:44:09,169 INFO marker-guidance state=ACTIVE target=23 age_ms=217.3 AUX1=2000 ex=-0.366 ey=0.143 approach=0.000 roll=1491 pitch=1500 yaw=1474 throttle=1346
+2026-09-10 10:44:09,679 INFO marker-guidance state=ACTIVE target=23 age_ms=159.7 AUX1=2000 ex=-0.604 ey=0.129 approach=0.000 roll=1485 pitch=1500 yaw=1458 throttle=1346
+2026-09-10 10:44:10,191 INFO marker-guidance state=ACTIVE target=23 age_ms=97.7 AUX1=2000 ex=-0.751 ey=0.107 approach=0.000 roll=1481 pitch=1500 yaw=1447 throttle=1347
+2026-09-10 10:44:10,703 INFO marker-guidance state=ACTIVE target=23 age_ms=227.8 AUX1=2000 ex=-0.798 ey=0.099 approach=0.000 roll=1480 pitch=1500 yaw=1444 throttle=1347
+2026-09-10 10:44:11,232 INFO marker-guidance state=ACTIVE target=23 age_ms=174.3 AUX1=2000 ex=-0.827 ey=0.096 approach=0.000 roll=1479 pitch=1500 yaw=1442 throttle=1347
+2026-09-10 10:44:11,759 INFO marker-guidance state=ACTIVE target=23 age_ms=124.4 AUX1=2000 ex=-0.838 ey=0.092 approach=0.000 roll=1479 pitch=1500 yaw=1441 throttle=1347
+2026-09-10 10:44:12,271 INFO marker-guidance state=ACTIVE target=23 age_ms=66.2 AUX1=2000 ex=-0.841 ey=0.091 approach=0.000 roll=1479 pitch=1500 yaw=1441 throttle=1347
+2026-09-10 10:44:12,783 INFO marker-guidance state=ACTIVE target=23 age_ms=194.5 AUX1=2000 ex=-0.842 ey=0.091 approach=0.000 roll=1479 pitch=1500 yaw=1441 throttle=1347
+2026-09-10 10:44:13,312 INFO marker-guidance state=ACTIVE target=23 age_ms=143.3 AUX1=2000 ex=-0.843 ey=0.091 approach=0.000 roll=1479 pitch=1500 yaw=1441 throttle=1347
+2026-09-10 10:44:13,839 INFO marker-guidance state=ACTIVE target=23 age_ms=96.5 AUX1=2000 ex=-0.843 ey=0.091 approach=0.000 roll=1479 pitch=1500 yaw=1441 throttle=1347
+2026-09-10 10:44:14,368 INFO marker-guidance state=ACTIVE target=23 age_ms=236.7 AUX1=2000 ex=-0.843 ey=0.091 approach=0.000 roll=1479 pitch=1500 yaw=1441 throttle=1347
+2026-09-10 10:44:14,880 INFO marker-guidance state=ACTIVE target=23 age_ms=168.0 AUX1=2000 ex=-0.753 ey=0.100 approach=0.000 roll=1481 pitch=1500 yaw=1447 throttle=1347
+2026-09-10 10:44:15,391 INFO marker-guidance state=ACTIVE target=23 age_ms=110.3 AUX1=2000 ex=-0.565 ey=0.104 approach=0.000 roll=1486 pitch=1500 yaw=1460 throttle=1347
+2026-09-10 10:44:15,936 INFO marker-guidance state=ACTIVE target=23 age_ms=82.4 AUX1=2000 ex=-0.291 ey=0.098 approach=0.000 roll=1493 pitch=1500 yaw=1476 throttle=1347
+2026-09-10 10:44:16,447 INFO marker-guidance state=ACTIVE target=23 age_ms=213.5 AUX1=2000 ex=-0.065 ey=0.094 approach=0.000 roll=1498 pitch=1500 yaw=1495 throttle=1347
+2026-09-10 10:44:16,959 INFO marker-guidance state=ACTIVE target=23 age_ms=156.0 AUX1=2000 ex=0.181 ey=0.097 approach=0.000 roll=1505 pitch=1500 yaw=1513 throttle=1347
+2026-09-10 10:44:17,472 INFO marker-guidance state=ACTIVE target=23 age_ms=86.3 AUX1=2000 ex=0.463 ey=0.072 approach=0.000 roll=1512 pitch=1500 yaw=1531 throttle=1348
+2026-09-10 10:44:17,984 INFO marker-guidance state=ACTIVE target=23 age_ms=209.8 AUX1=2000 ex=0.608 ey=0.066 approach=0.000 roll=1515 pitch=1500 yaw=1543 throttle=1348
+2026-09-10 10:44:18,015 INFO marker-guidance state=ACTIVE -> FAULT reason=locked marker missing or insufficient confidence
+2026-09-10 10:44:32,256 INFO marker-guidance state=FAULT -> STANDBY reason=physical AUX1 low; no RC transmission
+2026-09-10 10:45:08,736 INFO marker-guidance state=STANDBY -> STOPPED reason=no further RC transmissions
+2026-09-10 10:45:08,737 WARNING marker-guidance Stopped. No neutral/throttle/disarm packet was sent; receiver takeover/failsafe remains the flight controller's responsibility.
+2026-09-15 11:29:47,345 WARNING marker-guidance Starting dry_run=False; target class=0; no automatic arming. Firmware must own takeover/failsafe.
+2026-09-15 11:29:47,411 INFO marker-guidance Connected variant='BTFL' firmware=(25, 12, 2, 9, 50, 48, 50, 53, 46, 49, 50, 46, 50) api=(0, 1, 47)
+2026-09-15 11:29:47,412 INFO marker-guidance state=None -> WAIT_AUX_LOW reason=startup/reconnection interlock
+2026-09-15 11:29:47,427 INFO marker-guidance state=WAIT_AUX_LOW -> STANDBY reason=physical AUX1 low; no RC transmission
+2026-09-15 11:30:06,660 INFO marker-guidance AUX1 rising: captured base channels roll=885 pitch=885 yaw=885 throttle=885 (envelope +100/-100 us around captured throttle)
+2026-09-15 11:30:06,661 INFO marker-guidance Locked marker track_id=2 score=0.503
+2026-09-15 11:30:06,663 INFO marker-guidance state=STANDBY -> ACTIVE reason=fresh locked marker and AUX1 enabled
+2026-09-15 11:30:06,676 INFO marker-guidance state=ACTIVE target=2 age_ms=100.6 AUX1=2000 ex=-0.061 ey=0.000 approach=0.000 roll=1000 pitch=1000 yaw=1000 throttle=1000
+2026-09-15 11:30:07,204 INFO marker-guidance state=ACTIVE target=2 age_ms=238.4 AUX1=2000 ex=-0.026 ey=0.000 approach=0.000 roll=1000 pitch=1000 yaw=1000 throttle=1000
+2026-09-15 11:30:07,732 INFO marker-guidance state=ACTIVE target=2 age_ms=197.5 AUX1=2000 ex=-0.022 ey=0.000 approach=0.000 roll=1015 pitch=1015 yaw=1015 throttle=1000
+2026-09-15 11:30:08,245 INFO marker-guidance state=ACTIVE target=2 age_ms=139.8 AUX1=2000 ex=-0.064 ey=0.000 approach=0.000 roll=1077 pitch=1077 yaw=1077 throttle=1000
+2026-09-15 11:30:08,772 INFO marker-guidance state=ACTIVE target=2 age_ms=91.4 AUX1=2000 ex=-0.124 ey=0.000 approach=0.000 roll=1140 pitch=1140 yaw=1140 throttle=1000
+2026-09-15 11:30:09,300 INFO marker-guidance state=ACTIVE target=2 age_ms=239.2 AUX1=2000 ex=-0.162 ey=0.000 approach=0.000 roll=1203 pitch=1203 yaw=1203 throttle=1000
+2026-09-15 11:30:09,812 INFO marker-guidance state=ACTIVE target=2 age_ms=169.8 AUX1=2000 ex=-0.007 ey=0.000 approach=0.000 roll=1265 pitch=1265 yaw=1265 throttle=1000
+2026-09-15 11:30:10,324 INFO marker-guidance state=ACTIVE target=2 age_ms=111.1 AUX1=2000 ex=0.298 ey=0.000 approach=0.000 roll=1328 pitch=1328 yaw=1328 throttle=1000
+2026-09-15 11:30:10,835 INFO marker-guidance state=ACTIVE target=2 age_ms=237.7 AUX1=2000 ex=0.417 ey=0.000 approach=0.000 roll=1387 pitch=1387 yaw=1387 throttle=1000
+2026-09-15 11:30:11,348 INFO marker-guidance state=ACTIVE target=2 age_ms=174.0 AUX1=2000 ex=0.511 ey=0.000 approach=0.000 roll=1450 pitch=1450 yaw=1450 throttle=1000
+2026-09-15 11:30:11,860 INFO marker-guidance state=ACTIVE target=2 age_ms=101.7 AUX1=2000 ex=0.540 ey=0.000 approach=0.000 roll=1512 pitch=1500 yaw=1512 throttle=1000
+2026-09-15 11:30:12,404 INFO marker-guidance state=ACTIVE target=2 age_ms=69.4 AUX1=2000 ex=0.550 ey=0.000 approach=0.000 roll=1514 pitch=1500 yaw=1538 throttle=1000
+2026-09-15 11:30:12,916 INFO marker-guidance state=ACTIVE target=2 age_ms=205.3 AUX1=2000 ex=0.553 ey=0.000 approach=0.000 roll=1514 pitch=1500 yaw=1539 throttle=1000
+2026-09-15 11:30:13,444 INFO marker-guidance state=ACTIVE target=2 age_ms=161.1 AUX1=2000 ex=0.562 ey=0.000 approach=0.000 roll=1514 pitch=1500 yaw=1539 throttle=1000
+2026-09-15 11:30:13,956 INFO marker-guidance state=ACTIVE target=2 age_ms=108.5 AUX1=2000 ex=0.560 ey=0.000 approach=0.000 roll=1514 pitch=1500 yaw=1539 throttle=1000
+2026-09-15 11:30:14,483 INFO marker-guidance state=ACTIVE target=2 age_ms=63.0 AUX1=2000 ex=0.441 ey=0.000 approach=0.000 roll=1511 pitch=1500 yaw=1531 throttle=1000
+2026-09-15 11:30:14,996 INFO marker-guidance state=ACTIVE target=2 age_ms=194.4 AUX1=2000 ex=0.174 ey=0.000 approach=0.000 roll=1504 pitch=1500 yaw=1512 throttle=1000
+2026-09-15 11:30:15,524 INFO marker-guidance state=ACTIVE target=2 age_ms=153.8 AUX1=2000 ex=0.000 ey=0.000 approach=0.000 roll=1500 pitch=1500 yaw=1500 throttle=1000
+2026-09-15 11:30:16,037 INFO marker-guidance state=ACTIVE target=2 age_ms=90.4 AUX1=2000 ex=0.023 ey=0.000 approach=0.000 roll=1501 pitch=1500 yaw=1502 throttle=1000
+2026-09-15 11:30:16,564 INFO marker-guidance state=ACTIVE target=2 age_ms=234.3 AUX1=2000 ex=-0.145 ey=0.000 approach=0.000 roll=1496 pitch=1500 yaw=1490 throttle=1000
+2026-09-15 11:30:16,788 INFO marker-guidance state=ACTIVE -> FAULT reason=locked marker missing or insufficient confidence
+2026-09-15 11:30:24,645 INFO marker-guidance state=FAULT -> STANDBY reason=physical AUX1 low; no RC transmission
+2026-09-15 11:30:27,428 INFO marker-guidance AUX1 rising: captured base channels roll=1492 pitch=1500 yaw=1478 throttle=1000 (envelope +100/-100 us around captured throttle)
+2026-09-15 11:30:27,430 INFO marker-guidance Locked marker track_id=2 score=0.503
+2026-09-15 11:30:27,432 INFO marker-guidance state=STANDBY -> ACTIVE reason=fresh locked marker and AUX1 enabled
+2026-09-15 11:30:27,444 INFO marker-guidance state=ACTIVE target=2 age_ms=192.1 AUX1=2000 ex=0.079 ey=0.000 approach=0.000 roll=1497 pitch=1500 yaw=1483 throttle=1000
+2026-09-15 11:30:27,973 INFO marker-guidance state=ACTIVE target=2 age_ms=150.3 AUX1=2000 ex=0.278 ey=0.000 approach=0.000 roll=1507 pitch=1500 yaw=1519 throttle=1000
+2026-09-15 11:30:28,484 INFO marker-guidance state=ACTIVE target=2 age_ms=85.2 AUX1=2000 ex=0.260 ey=0.000 approach=0.000 roll=1507 pitch=1500 yaw=1518 throttle=1000
+2026-09-15 11:30:29,013 INFO marker-guidance state=ACTIVE target=2 age_ms=237.9 AUX1=2000 ex=0.171 ey=0.000 approach=0.000 roll=1504 pitch=1500 yaw=1512 throttle=1000
+2026-09-15 11:30:29,525 INFO marker-guidance state=ACTIVE target=2 age_ms=167.8 AUX1=2000 ex=0.071 ey=0.000 approach=0.000 roll=1502 pitch=1500 yaw=1505 throttle=1000
+2026-09-15 11:30:30,053 INFO marker-guidance state=ACTIVE target=2 age_ms=133.6 AUX1=2000 ex=0.000 ey=0.000 approach=0.000 roll=1500 pitch=1500 yaw=1500 throttle=1000
+2026-09-15 11:30:30,581 INFO marker-guidance state=ACTIVE target=2 age_ms=87.4 AUX1=2000 ex=0.095 ey=0.000 approach=0.000 roll=1502 pitch=1500 yaw=1505 throttle=1000
+2026-09-15 11:30:31,094 INFO marker-guidance state=ACTIVE target=2 age_ms=217.0 AUX1=2000 ex=0.290 ey=0.000 approach=0.000 roll=1507 pitch=1500 yaw=1520 throttle=1000
+2026-09-15 11:30:31,621 INFO marker-guidance state=ACTIVE target=2 age_ms=167.5 AUX1=2000 ex=0.459 ey=0.000 approach=0.000 roll=1511 pitch=1500 yaw=1532 throttle=1000
+2026-09-15 11:30:32,149 INFO marker-guidance state=ACTIVE target=2 age_ms=123.1 AUX1=2000 ex=0.531 ey=0.000 approach=0.000 roll=1513 pitch=1500 yaw=1537 throttle=1000
+2026-09-15 11:30:32,660 INFO marker-guidance state=ACTIVE target=2 age_ms=71.8 AUX1=2000 ex=0.536 ey=0.000 approach=0.000 roll=1513 pitch=1500 yaw=1538 throttle=1000
+2026-09-15 11:30:33,172 INFO marker-guidance state=ACTIVE target=2 age_ms=199.1 AUX1=2000 ex=0.533 ey=0.000 approach=0.000 roll=1513 pitch=1500 yaw=1537 throttle=1000
+2026-09-15 11:30:33,685 INFO marker-guidance state=ACTIVE -> STANDBY reason=physical AUX1 low; no RC transmission
+2026-09-15 11:30:39,156 INFO marker-guidance AUX1 rising: captured base channels roll=1514 pitch=1500 yaw=1538 throttle=1000 (envelope +100/-100 us around captured throttle)
+2026-09-15 11:30:39,158 INFO marker-guidance Locked marker track_id=2 score=0.503
+2026-09-15 11:30:39,159 INFO marker-guidance state=STANDBY -> ACTIVE reason=fresh locked marker and AUX1 enabled
+2026-09-15 11:30:39,175 INFO marker-guidance state=ACTIVE target=2 age_ms=138.3 AUX1=2000 ex=0.412 ey=0.000 approach=0.000 roll=1510 pitch=1500 yaw=1533 throttle=1000
+2026-09-15 11:30:39,701 INFO marker-guidance state=ACTIVE target=2 age_ms=88.1 AUX1=2000 ex=0.424 ey=0.000 approach=0.000 roll=1511 pitch=1500 yaw=1530 throttle=1000
+2026-09-15 11:30:40,212 INFO marker-guidance state=ACTIVE target=2 age_ms=223.8 AUX1=2000 ex=0.426 ey=0.000 approach=0.000 roll=1511 pitch=1500 yaw=1530 throttle=1000
+2026-09-15 11:30:40,742 INFO marker-guidance state=ACTIVE target=2 age_ms=172.5 AUX1=2000 ex=0.427 ey=0.000 approach=0.000 roll=1511 pitch=1500 yaw=1530 throttle=1000
+2026-09-15 11:30:41,269 INFO marker-guidance state=ACTIVE target=2 age_ms=126.2 AUX1=2000 ex=0.464 ey=0.000 approach=0.000 roll=1512 pitch=1500 yaw=1532 throttle=1000
+2026-09-15 11:30:41,781 INFO marker-guidance state=ACTIVE target=2 age_ms=69.5 AUX1=2000 ex=0.526 ey=0.000 approach=0.000 roll=1513 pitch=1500 yaw=1537 throttle=1000
+2026-09-15 11:30:42,308 INFO marker-guidance state=ACTIVE target=2 age_ms=216.4 AUX1=2000 ex=0.491 ey=0.000 approach=0.000 roll=1512 pitch=1500 yaw=1534 throttle=1000
+2026-09-15 11:30:42,837 INFO marker-guidance state=ACTIVE target=2 age_ms=166.9 AUX1=2000 ex=0.161 ey=0.000 approach=0.000 roll=1504 pitch=1500 yaw=1511 throttle=1000
+2026-09-15 11:30:43,300 INFO marker-guidance state=ACTIVE -> FAULT reason=locked marker missing or insufficient confidence
+2026-09-15 11:30:44,661 INFO marker-guidance state=FAULT -> STANDBY reason=physical AUX1 low; no RC transmission
+2026-09-15 11:30:49,749 INFO marker-guidance AUX1 rising: captured base channels roll=1500 pitch=1500 yaw=1500 throttle=1205 (envelope +100/-100 us around captured throttle)
+2026-09-15 11:30:49,750 INFO marker-guidance no eligible marker: n_obs=0 scores=[] ages=[] min_conf=0.35 min_age=1
+2026-09-15 11:30:49,751 INFO marker-guidance state=STANDBY -> ACQUIRING reason=no confirmed marker
+2026-09-15 11:30:50,264 INFO marker-guidance no eligible marker: n_obs=0 scores=[] ages=[] min_conf=0.35 min_age=1
+2026-09-15 11:30:50,773 INFO marker-guidance no eligible marker: n_obs=0 scores=[] ages=[] min_conf=0.35 min_age=1
+2026-09-15 11:30:51,301 INFO marker-guidance no eligible marker: n_obs=0 scores=[] ages=[] min_conf=0.35 min_age=1
+2026-09-15 11:30:51,829 INFO marker-guidance no eligible marker: n_obs=0 scores=[] ages=[] min_conf=0.35 min_age=1
+2026-09-15 11:30:52,341 INFO marker-guidance no eligible marker: n_obs=0 scores=[] ages=[] min_conf=0.35 min_age=1
+2026-09-15 11:30:52,853 INFO marker-guidance no eligible marker: n_obs=0 scores=[] ages=[] min_conf=0.35 min_age=1
+2026-09-15 11:30:53,383 INFO marker-guidance no eligible marker: n_obs=0 scores=[] ages=[] min_conf=0.35 min_age=1
+2026-09-15 11:30:53,910 INFO marker-guidance Locked marker track_id=3 score=0.503
+2026-09-15 11:30:53,911 INFO marker-guidance state=ACQUIRING -> ACTIVE reason=fresh locked marker and AUX1 enabled
+2026-09-15 11:30:53,925 INFO marker-guidance state=ACTIVE target=3 age_ms=77.3 AUX1=2000 ex=-0.464 ey=0.000 approach=0.000 roll=1495 pitch=1500 yaw=1495 throttle=1205
+2026-09-15 11:30:54,437 INFO marker-guidance state=ACTIVE target=3 age_ms=209.7 AUX1=2000 ex=-0.331 ey=0.000 approach=0.000 roll=1492 pitch=1500 yaw=1477 throttle=1205
+2026-09-15 11:30:54,965 INFO marker-guidance state=ACTIVE target=3 age_ms=157.2 AUX1=2000 ex=0.000 ey=0.000 approach=0.000 roll=1500 pitch=1500 yaw=1500 throttle=1205
+2026-09-15 11:30:55,493 INFO marker-guidance state=ACTIVE target=3 age_ms=112.6 AUX1=2000 ex=0.297 ey=0.000 approach=0.000 roll=1507 pitch=1500 yaw=1521 throttle=1205
+2026-09-15 11:30:56,005 INFO marker-guidance state=ACTIVE target=3 age_ms=246.6 AUX1=2000 ex=0.361 ey=0.000 approach=0.000 roll=1509 pitch=1500 yaw=1525 throttle=1205
+2026-09-15 11:30:56,517 INFO marker-guidance state=ACTIVE target=3 age_ms=187.9 AUX1=2000 ex=0.336 ey=0.000 approach=0.000 roll=1508 pitch=1500 yaw=1524 throttle=1205
+2026-09-15 11:30:57,061 INFO marker-guidance state=ACTIVE target=3 age_ms=162.5 AUX1=2000 ex=0.253 ey=0.000 approach=0.000 roll=1506 pitch=1500 yaw=1518 throttle=1205
+2026-09-15 11:30:57,573 INFO marker-guidance state=ACTIVE target=3 age_ms=99.5 AUX1=2000 ex=0.189 ey=0.000 approach=0.000 roll=1505 pitch=1500 yaw=1513 throttle=1205
+2026-09-15 11:30:58,085 INFO marker-guidance state=ACTIVE target=3 age_ms=225.5 AUX1=2000 ex=0.258 ey=0.000 approach=0.000 roll=1506 pitch=1500 yaw=1518 throttle=1205
+2026-09-15 11:30:58,614 INFO marker-guidance state=ACTIVE target=3 age_ms=182.2 AUX1=2000 ex=0.395 ey=0.000 approach=0.000 roll=1510 pitch=1500 yaw=1528 throttle=1205
+2026-09-15 11:30:59,125 INFO marker-guidance state=ACTIVE target=3 age_ms=114.5 AUX1=2000 ex=0.253 ey=0.000 approach=0.000 roll=1506 pitch=1500 yaw=1518 throttle=1205
+2026-09-15 11:30:59,653 INFO marker-guidance state=ACTIVE target=3 age_ms=65.4 AUX1=2000 ex=0.000 ey=0.000 approach=0.000 roll=1500 pitch=1500 yaw=1500 throttle=1205
+2026-09-15 11:31:00,181 INFO marker-guidance state=ACTIVE target=3 age_ms=212.3 AUX1=2000 ex=-0.063 ey=0.000 approach=0.000 roll=1498 pitch=1500 yaw=1496 throttle=1205
+2026-09-15 11:31:00,693 INFO marker-guidance state=ACTIVE target=3 age_ms=152.5 AUX1=2000 ex=-0.324 ey=0.000 approach=0.000 roll=1492 pitch=1500 yaw=1477 throttle=1205
+2026-09-15 11:31:00,805 INFO marker-guidance state=ACTIVE -> FAULT reason=locked marker missing or insufficient confidence
+2026-09-15 11:31:10,243 INFO marker-guidance state=FAULT -> STANDBY reason=physical AUX1 low; no RC transmission
+2026-09-15 11:31:12,371 INFO marker-guidance AUX1 rising: captured base channels roll=1492 pitch=1500 yaw=1477 throttle=1205 (envelope +100/-100 us around captured throttle)
+2026-09-15 11:31:12,374 INFO marker-guidance Locked marker track_id=4 score=0.503
+2026-09-15 11:31:12,376 INFO marker-guidance state=STANDBY -> ACTIVE reason=fresh locked marker and AUX1 enabled
+2026-09-15 11:31:12,387 INFO marker-guidance state=ACTIVE target=4 age_ms=221.2 AUX1=2000 ex=0.530 ey=0.000 approach=0.000 roll=1497 pitch=1500 yaw=1482 throttle=1205
+2026-09-15 11:31:12,899 INFO marker-guidance state=ACTIVE target=4 age_ms=156.1 AUX1=2000 ex=0.527 ey=0.000 approach=0.000 roll=1513 pitch=1500 yaw=1537 throttle=1205
+2026-09-15 11:31:13,427 INFO marker-guidance state=ACTIVE target=4 age_ms=113.8 AUX1=2000 ex=0.523 ey=0.000 approach=0.000 roll=1513 pitch=1500 yaw=1537 throttle=1205
+2026-09-15 11:31:13,971 INFO marker-guidance state=ACTIVE target=4 age_ms=82.2 AUX1=2000 ex=0.521 ey=0.000 approach=0.000 roll=1513 pitch=1500 yaw=1536 throttle=1205
+2026-09-15 11:31:14,483 INFO marker-guidance state=ACTIVE target=4 age_ms=208.6 AUX1=2000 ex=0.521 ey=0.000 approach=0.000 roll=1513 pitch=1500 yaw=1536 throttle=1205
+2026-09-15 11:31:15,011 INFO marker-guidance state=ACTIVE target=4 age_ms=162.6 AUX1=2000 ex=0.521 ey=0.000 approach=0.000 roll=1513 pitch=1500 yaw=1536 throttle=1205
+2026-09-15 11:31:15,523 INFO marker-guidance state=ACTIVE target=4 age_ms=103.7 AUX1=2000 ex=0.523 ey=0.000 approach=0.000 roll=1513 pitch=1500 yaw=1537 throttle=1205
+2026-09-15 11:31:16,035 INFO marker-guidance state=ACTIVE target=4 age_ms=233.9 AUX1=2000 ex=0.527 ey=0.000 approach=0.000 roll=1513 pitch=1500 yaw=1537 throttle=1205
+2026-09-15 11:31:16,468 INFO marker-guidance state=ACTIVE -> STANDBY reason=physical AUX1 low; no RC transmission
+2026-09-15 11:31:23,954 INFO marker-guidance AUX1 rising: captured base channels roll=1513 pitch=1500 yaw=1537 throttle=1205 (envelope +100/-100 us around captured throttle)
+2026-09-15 11:31:23,955 INFO marker-guidance no eligible marker: n_obs=0 scores=[] ages=[] min_conf=0.35 min_age=1
+2026-09-15 11:31:23,955 INFO marker-guidance state=STANDBY -> ACQUIRING reason=no confirmed marker
+2026-09-15 11:31:24,466 INFO marker-guidance no eligible marker: n_obs=0 scores=[] ages=[] min_conf=0.35 min_age=1
+2026-09-15 11:31:24,994 INFO marker-guidance no eligible marker: n_obs=0 scores=[] ages=[] min_conf=0.35 min_age=1
+2026-09-15 11:31:25,506 INFO marker-guidance no eligible marker: n_obs=0 scores=[] ages=[] min_conf=0.35 min_age=1
+2026-09-15 11:31:26,018 INFO marker-guidance no eligible marker: n_obs=0 scores=[] ages=[] min_conf=0.35 min_age=1
+2026-09-15 11:31:26,546 INFO marker-guidance no eligible marker: n_obs=0 scores=[] ages=[] min_conf=0.35 min_age=1
+2026-09-15 11:31:27,074 INFO marker-guidance no eligible marker: n_obs=0 scores=[] ages=[] min_conf=0.35 min_age=1
+2026-09-15 11:31:27,586 INFO marker-guidance no eligible marker: n_obs=0 scores=[] ages=[] min_conf=0.35 min_age=1
+2026-09-15 11:31:28,113 INFO marker-guidance no eligible marker: n_obs=0 scores=[] ages=[] min_conf=0.35 min_age=1
+2026-09-15 11:31:28,626 INFO marker-guidance no eligible marker: n_obs=0 scores=[] ages=[] min_conf=0.35 min_age=1
+2026-09-15 11:31:28,993 INFO marker-guidance state=ACQUIRING -> FAULT reason=no confirmed marker
+2026-09-15 11:31:30,193 INFO marker-guidance state=FAULT -> STANDBY reason=physical AUX1 low; no RC transmission
+2026-09-15 11:31:40,164 INFO marker-guidance state=STANDBY -> STOPPED reason=no further RC transmissions
+2026-09-15 11:31:40,165 WARNING marker-guidance Stopped. No neutral/throttle/disarm packet was sent; receiver takeover/failsafe remains the flight controller's responsibility.
+2026-09-15 11:36:40,791 WARNING marker-guidance Starting dry_run=False; target class=0; no automatic arming. Firmware must own takeover/failsafe.
+2026-09-15 11:36:40,839 INFO marker-guidance Connected variant='BTFL' firmware=(25, 12, 2, 9, 50, 48, 50, 53, 46, 49, 50, 46, 50) api=(0, 1, 47)
+2026-09-15 11:36:40,840 INFO marker-guidance state=None -> WAIT_AUX_LOW reason=startup/reconnection interlock
+2026-09-15 11:36:40,854 INFO marker-guidance state=WAIT_AUX_LOW -> STANDBY reason=physical AUX1 low; no RC transmission
+2026-09-15 11:36:51,335 INFO marker-guidance AUX1 rising: captured base channels roll=1513 pitch=1500 yaw=1537 throttle=1205 (envelope +100/-100 us around captured throttle)
+2026-09-15 11:36:51,337 INFO marker-guidance Locked marker track_id=1 score=0.503
+2026-09-15 11:36:51,338 INFO marker-guidance state=STANDBY -> ACTIVE reason=fresh locked marker and AUX1 enabled
+2026-09-15 11:36:51,350 INFO marker-guidance state=ACTIVE target=1 age_ms=110.5 AUX1=2000 ex=-0.338 ey=0.000 approach=0.000 roll=1508 pitch=1500 yaw=1532 throttle=1205
+2026-09-15 11:36:51,878 INFO marker-guidance state=ACTIVE target=1 age_ms=66.6 AUX1=2000 ex=-0.439 ey=0.000 approach=0.000 roll=1489 pitch=1500 yaw=1470 throttle=1205
+2026-09-15 11:36:52,406 INFO marker-guidance state=ACTIVE target=1 age_ms=215.1 AUX1=2000 ex=-0.474 ey=0.000 approach=0.000 roll=1488 pitch=1500 yaw=1467 throttle=1205
+2026-09-15 11:36:52,918 INFO marker-guidance state=ACTIVE target=1 age_ms=148.2 AUX1=2000 ex=-0.510 ey=0.000 approach=0.000 roll=1487 pitch=1500 yaw=1464 throttle=1205
+2026-09-15 11:36:53,446 INFO marker-guidance state=ACTIVE target=1 age_ms=106.7 AUX1=2000 ex=-0.522 ey=0.000 approach=0.000 roll=1487 pitch=1500 yaw=1463 throttle=1205
+2026-09-15 11:36:53,974 INFO marker-guidance state=ACTIVE target=1 age_ms=65.8 AUX1=2000 ex=-0.526 ey=0.000 approach=0.000 roll=1487 pitch=1500 yaw=1463 throttle=1205
+2026-09-15 11:36:54,487 INFO marker-guidance state=ACTIVE target=1 age_ms=197.4 AUX1=2000 ex=-0.527 ey=0.000 approach=0.000 roll=1487 pitch=1500 yaw=1463 throttle=1205
+2026-09-15 11:36:55,014 INFO marker-guidance state=ACTIVE target=1 age_ms=157.9 AUX1=2000 ex=-0.520 ey=0.000 approach=0.000 roll=1487 pitch=1500 yaw=1464 throttle=1205
+2026-09-15 11:36:55,526 INFO marker-guidance state=ACTIVE target=1 age_ms=90.4 AUX1=2000 ex=-0.526 ey=0.000 approach=0.000 roll=1487 pitch=1500 yaw=1463 throttle=1205
+2026-09-15 11:36:56,038 INFO marker-guidance state=ACTIVE target=1 age_ms=220.4 AUX1=2000 ex=-0.488 ey=0.000 approach=0.000 roll=1488 pitch=1500 yaw=1466 throttle=1205
+2026-09-15 11:36:56,566 INFO marker-guidance state=ACTIVE target=1 age_ms=174.4 AUX1=2000 ex=-0.080 ey=0.000 approach=0.000 roll=1498 pitch=1500 yaw=1494 throttle=1205
+2026-09-15 11:36:56,646 INFO marker-guidance state=ACTIVE -> FAULT reason=locked marker missing or insufficient confidence
+2026-09-15 11:37:00,150 INFO marker-guidance state=FAULT -> STANDBY reason=physical AUX1 low; no RC transmission
+2026-09-15 11:37:04,870 INFO marker-guidance AUX1 rising: captured base channels roll=1498 pitch=1500 yaw=1494 throttle=1205 (envelope +100/-100 us around captured throttle)
+2026-09-15 11:37:04,871 INFO marker-guidance Locked marker track_id=1 score=0.503
+2026-09-15 11:37:04,871 INFO marker-guidance state=STANDBY -> ACTIVE reason=fresh locked marker and AUX1 enabled
+2026-09-15 11:37:04,886 INFO marker-guidance state=ACTIVE target=1 age_ms=167.4 AUX1=2000 ex=0.446 ey=0.000 approach=0.000 roll=1503 pitch=1500 yaw=1499 throttle=1205
+2026-09-15 11:37:05,398 INFO marker-guidance state=ACTIVE target=1 age_ms=109.2 AUX1=2000 ex=0.569 ey=0.000 approach=0.000 roll=1514 pitch=1500 yaw=1540 throttle=1205
+2026-09-15 11:37:05,926 INFO marker-guidance state=ACTIVE target=1 age_ms=69.9 AUX1=2000 ex=0.618 ey=0.000 approach=0.000 roll=1515 pitch=1500 yaw=1543 throttle=1205
+2026-09-15 11:37:06,454 INFO marker-guidance state=ACTIVE target=1 age_ms=210.8 AUX1=2000 ex=0.622 ey=0.000 approach=0.000 roll=1516 pitch=1500 yaw=1544 throttle=1205
+2026-09-15 11:37:06,982 INFO marker-guidance state=ACTIVE target=1 age_ms=164.4 AUX1=2000 ex=0.625 ey=0.000 approach=0.000 roll=1516 pitch=1500 yaw=1544 throttle=1205
+2026-09-15 11:37:07,494 INFO marker-guidance state=ACTIVE target=1 age_ms=107.3 AUX1=2000 ex=0.626 ey=0.000 approach=0.000 roll=1516 pitch=1500 yaw=1544 throttle=1205
+2026-09-15 11:37:08,006 INFO marker-guidance state=ACTIVE target=1 age_ms=233.7 AUX1=2000 ex=0.626 ey=0.000 approach=0.000 roll=1516 pitch=1500 yaw=1544 throttle=1205
+2026-09-15 11:37:08,534 INFO marker-guidance state=ACTIVE target=1 age_ms=189.0 AUX1=2000 ex=0.600 ey=0.000 approach=0.000 roll=1515 pitch=1500 yaw=1542 throttle=1205
+2026-09-15 11:37:09,062 INFO marker-guidance state=ACTIVE target=1 age_ms=140.8 AUX1=2000 ex=0.429 ey=0.000 approach=0.000 roll=1511 pitch=1500 yaw=1530 throttle=1205
+2026-09-15 11:37:09,591 INFO marker-guidance state=ACTIVE target=1 age_ms=86.0 AUX1=2000 ex=0.152 ey=0.000 approach=0.000 roll=1504 pitch=1500 yaw=1515 throttle=1205
+2026-09-15 11:37:10,102 INFO marker-guidance state=ACTIVE target=1 age_ms=217.2 AUX1=2000 ex=-0.142 ey=0.000 approach=0.000 roll=1496 pitch=1500 yaw=1490 throttle=1205
+2026-09-15 11:37:10,343 INFO marker-guidance state=ACTIVE -> FAULT reason=locked marker missing or insufficient confidence
+2026-09-15 11:37:13,574 INFO marker-guidance state=FAULT -> STANDBY reason=physical AUX1 low; no RC transmission
+2026-09-15 11:37:22,510 INFO marker-guidance state=STANDBY -> STOPPED reason=no further RC transmissions
+2026-09-15 11:37:22,510 WARNING marker-guidance Stopped. No neutral/throttle/disarm packet was sent; receiver takeover/failsafe remains the flight controller's responsibility.
+2026-09-15 11:50:38,152 WARNING marker-guidance Starting dry_run=False; target class=0; no automatic arming. Firmware must own takeover/failsafe.
+2026-09-15 11:50:38,205 INFO marker-guidance Connected variant='BTFL' firmware=(25, 12, 2, 9, 50, 48, 50, 53, 46, 49, 50, 46, 50) api=(0, 1, 47)
+2026-09-15 11:50:38,206 INFO marker-guidance state=None -> WAIT_AUX_LOW reason=startup/reconnection interlock
+2026-09-15 11:50:38,226 INFO marker-guidance state=WAIT_AUX_LOW -> STANDBY reason=physical AUX1 low; no RC transmission
+2026-09-15 11:50:50,253 INFO marker-guidance AUX1 rising: captured base channels roll=1491 pitch=1500 yaw=1476 throttle=1205 (envelope +100/-100 us around captured throttle)
+2026-09-15 11:50:50,254 INFO marker-guidance Locked marker track_id=2 score=0.503
+2026-09-15 11:50:50,256 INFO marker-guidance state=STANDBY -> ACTIVE reason=fresh locked marker and AUX1 enabled
+2026-09-15 11:50:50,269 INFO marker-guidance state=ACTIVE target=2 age_ms=65.0 AUX1=2000 ex=0.058 ey=0.000 approach=0.000 roll=1496 pitch=1500 yaw=1481 throttle=1205
+2026-09-15 11:50:50,797 INFO marker-guidance state=ACTIVE target=2 age_ms=220.9 AUX1=2000 ex=0.059 ey=0.000 approach=0.000 roll=1501 pitch=1500 yaw=1504 throttle=1205
+2026-09-15 11:50:51,325 INFO marker-guidance state=ACTIVE target=2 age_ms=176.0 AUX1=2000 ex=0.041 ey=0.000 approach=0.000 roll=1501 pitch=1500 yaw=1503 throttle=1205
+2026-09-15 11:50:51,837 INFO marker-guidance state=ACTIVE target=2 age_ms=120.9 AUX1=2000 ex=0.006 ey=0.000 approach=0.000 roll=1500 pitch=1500 yaw=1500 throttle=1205
+2026-09-15 11:50:52,365 INFO marker-guidance state=ACTIVE target=2 age_ms=89.8 AUX1=2000 ex=0.000 ey=0.000 approach=0.000 roll=1500 pitch=1500 yaw=1500 throttle=1205
+2026-09-15 11:50:52,877 INFO marker-guidance state=ACTIVE target=2 age_ms=223.5 AUX1=2000 ex=0.079 ey=0.000 approach=0.000 roll=1502 pitch=1500 yaw=1506 throttle=1205
+2026-09-15 11:50:53,405 INFO marker-guidance state=ACTIVE target=2 age_ms=190.3 AUX1=2000 ex=0.338 ey=0.000 approach=0.000 roll=1508 pitch=1500 yaw=1524 throttle=1205
+2026-09-15 11:50:53,933 INFO marker-guidance state=ACTIVE target=2 age_ms=153.0 AUX1=2000 ex=0.465 ey=0.000 approach=0.000 roll=1512 pitch=1500 yaw=1533 throttle=1205
+2026-09-15 11:50:54,461 INFO marker-guidance state=ACTIVE target=2 age_ms=119.2 AUX1=2000 ex=0.500 ey=0.000 approach=0.000 roll=1512 pitch=1500 yaw=1535 throttle=1205
+2026-09-15 11:50:54,973 INFO marker-guidance state=ACTIVE target=2 age_ms=245.8 AUX1=2000 ex=0.448 ey=0.000 approach=0.000 roll=1511 pitch=1500 yaw=1531 throttle=1205
+2026-09-15 11:50:55,503 INFO marker-guidance state=ACTIVE target=2 age_ms=205.1 AUX1=2000 ex=0.195 ey=0.000 approach=0.000 roll=1505 pitch=1500 yaw=1514 throttle=1205
+2026-09-15 11:50:56,013 INFO marker-guidance state=ACTIVE target=2 age_ms=156.7 AUX1=2000 ex=0.084 ey=0.000 approach=0.000 roll=1502 pitch=1500 yaw=1506 throttle=1205
+2026-09-15 11:50:56,541 INFO marker-guidance state=ACTIVE target=2 age_ms=122.4 AUX1=2000 ex=-0.151 ey=0.000 approach=0.000 roll=1496 pitch=1500 yaw=1489 throttle=1205
+2026-09-15 11:50:57,053 INFO marker-guidance state=ACTIVE target=2 age_ms=257.0 AUX1=2000 ex=-0.435 ey=0.000 approach=0.000 roll=1489 pitch=1500 yaw=1470 throttle=1205
+2026-09-15 11:50:57,565 INFO marker-guidance state=ACTIVE target=2 age_ms=198.6 AUX1=2000 ex=-0.435 ey=0.000 approach=0.000 roll=1489 pitch=1500 yaw=1470 throttle=1205 coast=3
+2026-09-15 11:50:57,613 INFO marker-guidance state=ACTIVE -> FAULT reason=locked marker missing or insufficient confidence
+2026-09-15 11:51:09,373 INFO marker-guidance state=FAULT -> STANDBY reason=physical AUX1 low; no RC transmission
+2026-09-15 11:51:15,181 INFO marker-guidance AUX1 rising: captured base channels roll=1489 pitch=1500 yaw=1470 throttle=1205 (envelope +100/-100 us around captured throttle)
+2026-09-15 11:51:15,188 INFO marker-guidance Locked marker track_id=2 score=0.503
+2026-09-15 11:51:15,189 INFO marker-guidance state=STANDBY -> ACTIVE reason=fresh locked marker and AUX1 enabled
+2026-09-15 11:51:15,213 INFO marker-guidance state=ACTIVE target=2 age_ms=210.2 AUX1=2000 ex=0.518 ey=0.000 approach=0.000 roll=1494 pitch=1500 yaw=1475 throttle=1205
+2026-09-15 11:51:15,725 INFO marker-guidance state=ACTIVE target=2 age_ms=173.9 AUX1=2000 ex=0.519 ey=0.000 approach=0.000 roll=1513 pitch=1500 yaw=1536 throttle=1205
+2026-09-15 11:51:16,237 INFO marker-guidance state=ACTIVE target=2 age_ms=123.6 AUX1=2000 ex=0.520 ey=0.000 approach=0.000 roll=1513 pitch=1500 yaw=1536 throttle=1205
+2026-09-15 11:51:16,749 INFO marker-guidance state=ACTIVE target=2 age_ms=76.8 AUX1=2000 ex=0.526 ey=0.000 approach=0.000 roll=1513 pitch=1500 yaw=1537 throttle=1205
+2026-09-15 11:51:17,262 INFO marker-guidance state=ACTIVE target=2 age_ms=215.0 AUX1=2000 ex=0.528 ey=0.000 approach=0.000 roll=1513 pitch=1500 yaw=1537 throttle=1205
+2026-09-15 11:51:17,789 INFO marker-guidance state=ACTIVE target=2 age_ms=173.6 AUX1=2000 ex=0.529 ey=0.000 approach=0.000 roll=1513 pitch=1500 yaw=1537 throttle=1205
+2026-09-15 11:51:18,318 INFO marker-guidance state=ACTIVE target=2 age_ms=127.9 AUX1=2000 ex=0.542 ey=0.000 approach=0.000 roll=1514 pitch=1500 yaw=1538 throttle=1205
+2026-09-15 11:51:18,829 INFO marker-guidance state=ACTIVE target=2 age_ms=81.7 AUX1=2000 ex=0.543 ey=0.000 approach=0.000 roll=1514 pitch=1500 yaw=1538 throttle=1205
+2026-09-15 11:51:19,357 INFO marker-guidance state=ACTIVE target=2 age_ms=236.9 AUX1=2000 ex=0.512 ey=0.000 approach=0.000 roll=1513 pitch=1500 yaw=1536 throttle=1205
+2026-09-15 11:51:19,885 INFO marker-guidance state=ACTIVE target=2 age_ms=202.9 AUX1=2000 ex=0.410 ey=0.000 approach=0.000 roll=1510 pitch=1500 yaw=1529 throttle=1205
+2026-09-15 11:51:20,413 INFO marker-guidance state=ACTIVE target=2 age_ms=172.0 AUX1=2000 ex=0.350 ey=0.000 approach=0.000 roll=1509 pitch=1500 yaw=1524 throttle=1205
+2026-09-15 11:51:20,925 INFO marker-guidance state=ACTIVE target=2 age_ms=110.4 AUX1=2000 ex=0.282 ey=0.000 approach=0.000 roll=1507 pitch=1500 yaw=1520 throttle=1205
+2026-09-15 11:51:21,453 INFO marker-guidance state=ACTIVE target=2 age_ms=65.6 AUX1=2000 ex=-0.017 ey=0.000 approach=0.000 roll=1500 pitch=1500 yaw=1502 throttle=1205
+2026-09-15 11:51:21,965 INFO marker-guidance state=ACTIVE target=2 age_ms=201.2 AUX1=2000 ex=-0.353 ey=0.000 approach=0.000 roll=1491 pitch=1500 yaw=1475 throttle=1205
+2026-09-15 11:51:22,494 INFO marker-guidance state=ACTIVE target=2 age_ms=161.5 AUX1=2000 ex=-0.643 ey=0.000 approach=0.000 roll=1484 pitch=1500 yaw=1455 throttle=1205
+2026-09-15 11:51:23,005 INFO marker-guidance state=ACTIVE target=2 age_ms=99.7 AUX1=2000 ex=-0.724 ey=0.000 approach=0.000 roll=1482 pitch=1500 yaw=1449 throttle=1205
+2026-09-15 11:51:23,534 INFO marker-guidance state=ACTIVE target=2 age_ms=64.4 AUX1=2000 ex=-0.580 ey=0.000 approach=0.000 roll=1486 pitch=1500 yaw=1459 throttle=1205
+2026-09-15 11:51:24,045 INFO marker-guidance state=ACTIVE target=2 age_ms=200.4 AUX1=2000 ex=-0.446 ey=0.000 approach=0.000 roll=1489 pitch=1500 yaw=1469 throttle=1205
+2026-09-15 11:51:24,574 INFO marker-guidance state=ACTIVE target=2 age_ms=169.8 AUX1=2000 ex=-0.397 ey=0.000 approach=0.000 roll=1490 pitch=1500 yaw=1472 throttle=1205
+2026-09-15 11:51:25,101 INFO marker-guidance state=ACTIVE target=2 age_ms=129.0 AUX1=2000 ex=-0.319 ey=0.000 approach=0.000 roll=1492 pitch=1500 yaw=1478 throttle=1205
+2026-09-15 11:51:25,613 INFO marker-guidance state=ACTIVE target=2 age_ms=80.8 AUX1=2000 ex=-0.218 ey=0.000 approach=0.000 roll=1495 pitch=1500 yaw=1485 throttle=1205
+2026-09-15 11:51:26,141 INFO marker-guidance state=ACTIVE target=2 age_ms=231.4 AUX1=2000 ex=-0.216 ey=0.000 approach=0.000 roll=1495 pitch=1500 yaw=1485 throttle=1205
+2026-09-15 11:51:26,653 INFO marker-guidance state=ACTIVE target=2 age_ms=173.9 AUX1=2000 ex=-0.144 ey=0.000 approach=0.000 roll=1496 pitch=1500 yaw=1490 throttle=1205
+2026-09-15 11:51:27,181 INFO marker-guidance state=ACTIVE target=2 age_ms=140.6 AUX1=2000 ex=0.098 ey=0.000 approach=0.000 roll=1502 pitch=1500 yaw=1507 throttle=1205
+2026-09-15 11:51:27,725 INFO marker-guidance state=ACTIVE target=2 age_ms=117.1 AUX1=2000 ex=0.290 ey=0.000 approach=0.000 roll=1507 pitch=1500 yaw=1520 throttle=1205
+2026-09-15 11:51:28,237 INFO marker-guidance state=ACTIVE target=2 age_ms=70.6 AUX1=2000 ex=0.351 ey=0.000 approach=0.000 roll=1509 pitch=1500 yaw=1525 throttle=1205
+2026-09-15 11:51:28,765 INFO marker-guidance state=ACTIVE target=2 age_ms=214.7 AUX1=2000 ex=0.370 ey=0.000 approach=0.000 roll=1509 pitch=1500 yaw=1526 throttle=1205
+2026-09-15 11:51:29,277 INFO marker-guidance state=ACTIVE target=2 age_ms=151.7 AUX1=2000 ex=0.372 ey=0.000 approach=0.000 roll=1509 pitch=1500 yaw=1526 throttle=1205
+2026-09-15 11:51:29,805 INFO marker-guidance state=ACTIVE target=2 age_ms=118.4 AUX1=2000 ex=0.351 ey=0.000 approach=0.000 roll=1509 pitch=1500 yaw=1525 throttle=1205
+2026-09-15 11:51:30,333 INFO marker-guidance state=ACTIVE target=2 age_ms=81.8 AUX1=2000 ex=0.050 ey=0.000 approach=0.000 roll=1501 pitch=1500 yaw=1509 throttle=1205
+2026-09-15 11:51:30,845 INFO marker-guidance state=ACTIVE target=2 age_ms=214.7 AUX1=2000 ex=-0.145 ey=0.000 approach=0.000 roll=1496 pitch=1500 yaw=1490 throttle=1205
+2026-09-15 11:51:31,389 INFO marker-guidance state=ACTIVE target=2 age_ms=190.3 AUX1=2000 ex=-0.368 ey=0.000 approach=0.000 roll=1491 pitch=1500 yaw=1474 throttle=1205
+2026-09-15 11:51:31,902 INFO marker-guidance state=ACTIVE target=2 age_ms=138.3 AUX1=2000 ex=-0.530 ey=0.000 approach=0.000 roll=1487 pitch=1500 yaw=1463 throttle=1205
+2026-09-15 11:51:32,429 INFO marker-guidance state=ACTIVE target=2 age_ms=104.6 AUX1=2000 ex=-0.590 ey=0.000 approach=0.000 roll=1485 pitch=1500 yaw=1459 throttle=1205
+2026-09-15 11:51:32,942 INFO marker-guidance state=ACTIVE target=2 age_ms=234.2 AUX1=2000 ex=-0.606 ey=0.000 approach=0.000 roll=1485 pitch=1500 yaw=1458 throttle=1205
+2026-09-15 11:51:33,341 INFO marker-guidance state=ACTIVE -> STANDBY reason=physical AUX1 low; no RC transmission
+2026-09-15 11:51:43,213 INFO marker-guidance state=STANDBY -> STOPPED reason=no further RC transmissions
+2026-09-15 11:51:43,214 WARNING marker-guidance Stopped. No neutral/throttle/disarm packet was sent; receiver takeover/failsafe remains the flight controller's responsibility.
+2026-09-15 12:04:35,327 WARNING marker-guidance Starting dry_run=False; target class=0; no automatic arming. Firmware must own takeover/failsafe.
+2026-09-15 12:04:35,386 INFO marker-guidance Connected variant='BTFL' firmware=(25, 12, 2, 9, 50, 48, 50, 53, 46, 49, 50, 46, 50) api=(0, 1, 47)
+2026-09-15 12:04:35,388 INFO marker-guidance state=None -> WAIT_AUX_LOW reason=startup/reconnection interlock
+2026-09-15 12:04:35,402 INFO marker-guidance state=WAIT_AUX_LOW -> STANDBY reason=physical AUX1 low; no RC transmission
+2026-09-15 12:04:46,121 INFO marker-guidance AUX1 rising: captured base channels roll=1485 pitch=1500 yaw=1457 throttle=1205 (envelope +100/-100 us around captured throttle)
+2026-09-15 12:04:46,123 INFO marker-guidance Locked marker track_id=1 score=0.503
+2026-09-15 12:04:46,124 INFO marker-guidance state=STANDBY -> ACTIVE reason=fresh locked marker and AUX1 enabled
+2026-09-15 12:04:46,138 INFO marker-guidance state=ACTIVE target=1 age_ms=125.4 AUX1=2000 ex=-0.071 ey=0.000 approach=0.000 roll=1490 pitch=1500 yaw=1462 throttle=1205
+2026-09-15 12:04:46,666 INFO marker-guidance state=ACTIVE target=1 age_ms=81.2 AUX1=2000 ex=-0.047 ey=0.000 approach=0.000 roll=1499 pitch=1500 yaw=1497 throttle=1205
+2026-09-15 12:04:47,178 INFO marker-guidance state=ACTIVE target=1 age_ms=211.3 AUX1=2000 ex=-0.086 ey=0.000 approach=0.000 roll=1498 pitch=1500 yaw=1494 throttle=1205
+2026-09-15 12:04:47,706 INFO marker-guidance state=ACTIVE target=1 age_ms=172.6 AUX1=2000 ex=-0.136 ey=0.000 approach=0.000 roll=1497 pitch=1500 yaw=1490 throttle=1205
+2026-09-15 12:04:48,217 INFO marker-guidance state=ACTIVE target=1 age_ms=120.3 AUX1=2000 ex=-0.187 ey=0.000 approach=0.000 roll=1495 pitch=1500 yaw=1487 throttle=1205
+2026-09-15 12:04:48,762 INFO marker-guidance state=ACTIVE target=1 age_ms=96.5 AUX1=2000 ex=-0.114 ey=0.000 approach=0.000 roll=1497 pitch=1500 yaw=1492 throttle=1205
+2026-09-15 12:04:49,273 INFO marker-guidance state=ACTIVE target=1 age_ms=234.0 AUX1=2000 ex=-0.024 ey=0.000 approach=0.000 roll=1499 pitch=1500 yaw=1498 throttle=1205
+2026-09-15 12:04:49,786 INFO marker-guidance state=ACTIVE target=1 age_ms=182.0 AUX1=2000 ex=0.284 ey=0.000 approach=0.000 roll=1507 pitch=1500 yaw=1520 throttle=1205
+2026-09-15 12:04:50,313 INFO marker-guidance state=ACTIVE target=1 age_ms=143.6 AUX1=2000 ex=0.496 ey=0.000 approach=0.000 roll=1512 pitch=1500 yaw=1535 throttle=1205
+2026-09-15 12:04:50,841 INFO marker-guidance state=ACTIVE target=1 age_ms=109.8 AUX1=2000 ex=0.553 ey=0.000 approach=0.000 roll=1514 pitch=1500 yaw=1539 throttle=1205
+2026-09-15 12:04:51,353 INFO marker-guidance state=ACTIVE target=1 age_ms=61.4 AUX1=2000 ex=0.419 ey=0.000 approach=0.000 roll=1510 pitch=1500 yaw=1531 throttle=1205
+2026-09-15 12:04:51,881 INFO marker-guidance state=ACTIVE target=1 age_ms=214.0 AUX1=2000 ex=0.150 ey=0.000 approach=0.000 roll=1504 pitch=1500 yaw=1510 throttle=1205
+2026-09-15 12:04:52,426 INFO marker-guidance state=ACTIVE target=1 age_ms=166.8 AUX1=2000 ex=-0.094 ey=0.000 approach=0.000 roll=1498 pitch=1500 yaw=1493 throttle=1205
+2026-09-15 12:04:52,939 INFO marker-guidance state=ACTIVE target=1 age_ms=132.0 AUX1=2000 ex=-0.497 ey=0.000 approach=0.000 roll=1488 pitch=1500 yaw=1465 throttle=1205
+2026-09-15 12:04:53,450 INFO marker-guidance state=ACTIVE target=1 age_ms=83.0 AUX1=2000 ex=-0.673 ey=0.000 approach=0.000 roll=1483 pitch=1500 yaw=1453 throttle=1205
+2026-09-15 12:04:53,977 INFO marker-guidance state=ACTIVE target=1 age_ms=235.0 AUX1=2000 ex=-0.686 ey=0.000 approach=0.000 roll=1483 pitch=1500 yaw=1452 throttle=1205
+2026-09-15 12:04:54,505 INFO marker-guidance state=ACTIVE target=1 age_ms=192.4 AUX1=2000 ex=-0.686 ey=0.000 approach=0.000 roll=1483 pitch=1500 yaw=1452 throttle=1205 coast=2
+2026-09-15 12:04:55,017 INFO marker-guidance state=ACTIVE target=1 age_ms=151.2 AUX1=2000 ex=-0.686 ey=0.000 approach=0.000 roll=1483 pitch=1500 yaw=1452 throttle=1205 coast=5
+2026-09-15 12:04:55,290 INFO marker-guidance state=ACTIVE -> FAULT reason=locked marker missing or insufficient confidence
+2026-09-15 12:05:01,449 INFO marker-guidance state=FAULT -> STANDBY reason=physical AUX1 low; no RC transmission
+2026-09-15 12:05:12,058 INFO marker-guidance state=STANDBY -> STOPPED reason=no further RC transmissions
+2026-09-15 12:05:12,058 WARNING marker-guidance Stopped. No neutral/throttle/disarm packet was sent; receiver takeover/failsafe remains the flight controller's responsibility.

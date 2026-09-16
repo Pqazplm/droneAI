@@ -1,0 +1,17 @@
+python3 claude2.py \
+    --classes 0,2,7 \
+    --track-life 20 \
+    --track-iou-thresh 0.05 \
+    --smooth-alpha 0.3 \
+    --guidance \
+    --guidance-port /dev/ttyACM0 \
+    --guidance-marker-class 0 \
+    --guidance-live \
+    --guidance-i-verified-primary-override \
+    --guidance-raw-order AETR \
+    --guidance-hover-throttle 1350 \
+    --guidance-throttle-min 1250 \
+    --guidance-throttle-max 1450 \
+    --guidance-desired-box-height 0.25 \
+    --guidance-roll-sign 1 --guidance-pitch-sign 1 \
+    --guidance-yaw-sign 1 --guidance-throttle-sign -1
